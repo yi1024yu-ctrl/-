@@ -1,0 +1,401 @@
+{
+  "metadata": {
+    "collection_date": "2026-09-27",
+    "target_period": "2026-05-01 to 2026-09-30",
+    "cancer_type": "colorectal (大腸がん: 結腸がん・直腸がん)",
+    "agent": "PubMed-大腸がん担当",
+    "search_tool": "WebSearch + WebFetch",
+    "note": "直接PubMed/NCBIへのアクセスはネットワーク制限により不可。WebSearch経由で情報収集。"
+  },
+  "search_log": [
+    {
+      "query": "PubMed colorectal cancer phase III clinical trial 2026 results",
+      "hits_relevant": 4,
+      "found": ["BREAKWATER Cohort 3 (PMID 42219860)", "COMMIT (PMID 42525921)", "HORIZON-CRC01", "SCOT (outside window)"]
+    },
+    {
+      "query": "colon cancer rectal cancer phase 3 randomized trial 2026 published",
+      "hits_relevant": 2,
+      "found": ["SCOT (outside window: JCO Feb 2026)", "JCOG0603 long-term (outside window: JCO Feb 2026)"]
+    },
+    {
+      "query": "colorectal cancer immunotherapy phase III 2026 pembrolizumab nivolumab MSI-H results",
+      "hits_relevant": 2,
+      "found": ["COMMIT (confirmed)", "KEYNOTE-177 5-year (published 2024, outside window)"]
+    },
+    {
+      "query": "colorectal cancer VEGF EGFR ADC antibody drug conjugate phase 3 2026 trial results",
+      "hits_relevant": 1,
+      "found": ["Phase III ADC data very limited; mostly Phase I/II; HORIZON-CRC01 (ASCO 2026)"]
+    },
+    {
+      "query": "mCRC metastatic colorectal phase III trial results published 2026",
+      "hits_relevant": 3,
+      "found": ["BREAKWATER Cohort 3", "COMMIT", "ASCO GI 2026 summary (PMID 42083467)"]
+    },
+    {
+      "query": "BREAKWATER COMMIT HORIZON colorectal cancer phase 3 2026 published PubMed",
+      "hits_relevant": 3,
+      "found": ["BREAKWATER Cohort 3 (Ann Oncol, Epub May 31 2026, PMID 42219860)", "COMMIT (JCO July 2026, PMID 42525921)", "HORIZON-CRC01 (ASCO 2026 abstract only)"]
+    },
+    {
+      "query": "SCOT trial colorectal adjuvant 3 vs 6 months 2026 JCO PMID",
+      "hits_relevant": 1,
+      "found": ["SCOT: JCO 2026 Feb (PMC12931879); OUTSIDE window (Feb 2026)"],
+      "excluded": "E5 - publication date before May 2026"
+    },
+    {
+      "query": "BREAKWATER encorafenib cetuximab mFOLFOX6 BRAF colorectal cancer phase 3 Annals Oncology 2026 PMID NCT OS PFS HR",
+      "hits_relevant": 2,
+      "found": ["BREAKWATER Cohort 3 (Ann Oncol PMID 42219860)", "BREAKWATER mFOLFOX6 primary (NEJM June 2025, PMID 40444708, outside window)"]
+    },
+    {
+      "query": "COMMIT trial atezolizumab mFOLFOX6 bevacizumab dMMR MSI-H colorectal cancer phase 3 2026 results",
+      "hits_relevant": 1,
+      "found": ["COMMIT: JCO July 29, 2026, PMID 42525921, DOI 10.1200/JCO-25-03052"]
+    },
+    {
+      "query": "HORIZON-CRC01 trastuzumab rezetecan HER2 colorectal cancer phase 3 2026",
+      "hits_relevant": 1,
+      "found": ["HORIZON-CRC01: ASCO Annual Meeting June 2026, JCO 2026;44(16_suppl):3505, conference abstract only"]
+    },
+    {
+      "query": "KRYSTAL-10 adagrasib cetuximab KRAS G12C colorectal cancer phase 3 results 2026",
+      "hits_relevant": 1,
+      "found": ["KRYSTAL-10: ESMO GI 2026 July 1-4, LBA1, conference presentation, no full journal publication confirmed"]
+    },
+    {
+      "query": "ATOMIC atezolizumab FOLFOX dMMR colon cancer NEJM 2026 PMID",
+      "hits_relevant": 1,
+      "found": ["ATOMIC: NEJM March 26, 2026, PMID 41880612, OUTSIDE window (March 2026)"],
+      "excluded": "E5 - publication date before May 2026"
+    },
+    {
+      "query": "TRIPLETE FOLFOXIRI panitumumab colorectal cancer JCO 2026 final results OS",
+      "hits_relevant": 1,
+      "found": ["TRIPLETE final OS: JCO January 8, 2026, OUTSIDE window"],
+      "excluded": "E5 - publication date before May 2026"
+    },
+    {
+      "query": "JCOG0603 colorectal cancer liver metastasis hepatectomy mFOLFOX6 phase III 2026",
+      "hits_relevant": 1,
+      "found": ["JCOG0603 long-term: JCO February 2026, OUTSIDE window"],
+      "excluded": "E5 - publication date before May 2026"
+    },
+    {
+      "query": "colorectal cancer ESMO 2026 September phase 3 randomized trial results",
+      "hits_relevant": 1,
+      "found": ["ESMO Annual Sep 2026: No confirmed CRC Phase III results found in searches"]
+    },
+    {
+      "query": "HARMONi-GI3 ivonescimab FOLFOX bevacizumab metastatic colorectal cancer phase 3 ASCO 2026",
+      "hits_relevant": 0,
+      "found": ["HARMONi-GI3 (NCT07228832): Trials-in-Progress only, no results; Phase 2 data presented"],
+      "excluded": "No results available; trial still enrolling"
+    },
+    {
+      "query": "EMERALD-3 colorectal rectal cancer ASCO 2026 phase 3 results",
+      "hits_relevant": 0,
+      "found": ["EMERALD-3: Phase 3 HCC trial, not CRC"],
+      "excluded": "Wrong tumor type"
+    }
+  ],
+  "excluded_studies": [
+    {
+      "trial_name": "ATOMIC",
+      "reason_code": "E5",
+      "reason": "Period outside: published NEJM March 26, 2026 (before May 2026)",
+      "pmid": "41880612",
+      "doi": "10.1056/NEJMoa2507874",
+      "brief": "Atezolizumab + mFOLFOX6 vs mFOLFOX6 alone for stage III dMMR/MSI-H colon cancer (adjuvant); 3-year DFS 86.3% vs 76.2%; HR 0.50; N=712"
+    },
+    {
+      "trial_name": "SCOT",
+      "reason_code": "E5",
+      "reason": "Period outside: published JCO February 2026",
+      "pmid": "PMC12931879",
+      "doi": "10.1200/JCO-25-00621",
+      "brief": "3 vs 6 months adjuvant CAPOX/FOLFOX for stage II-III CRC; final OS results; 5-year OS 82.4% both groups; HR 0.96; N=6088"
+    },
+    {
+      "trial_name": "TRIPLETE (final OS)",
+      "reason_code": "E5",
+      "reason": "Period outside: published JCO January 8, 2026",
+      "doi": "10.1200/JCO-25-01337",
+      "brief": "mFOLFOXIRI+panitumumab vs mFOLFOX6+panitumumab for RAS/BRAF wt mCRC; final OS 41.1 vs 33.3 months; HR 0.79; p=0.049; N=435"
+    },
+    {
+      "trial_name": "JCOG0603 (long-term OS update)",
+      "reason_code": "E5",
+      "reason": "Period outside: published JCO February 2026",
+      "pmid": "41564372",
+      "doi": "10.1200/JCO-25-01231",
+      "brief": "Hepatectomy + adjuvant mFOLFOX6 vs hepatectomy alone for colorectal liver metastases; improved DFS but no OS benefit; N=300"
+    },
+    {
+      "trial_name": "BREAKWATER (mFOLFOX6 cohort, primary analysis)",
+      "reason_code": "E5",
+      "reason": "Period outside: published NEJM June 26, 2025 (before May 2026)",
+      "pmid": "40444708",
+      "doi": "10.1056/NEJMoa2501912",
+      "brief": "EC+mFOLFOX6 vs SOC for BRAF V600E mCRC 1L; PFS 12.8 vs 7.1 months HR 0.53; OS 30.3 vs 15.1 months HR 0.49"
+    }
+  ],
+  "trials": [
+    {
+      "trial_name": "BREAKWATER Cohort 3",
+      "nct_id": "NCT04607421",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "BRAF V600E変異型 mCRC",
+      "setting": "一次治療",
+      "investigational_arm": "エンコラフェニブ + セツキシマブ + FOLFIRI (EC+FOLFIRI)",
+      "control_arm": "FOLFIRI ± ベバシズマブ",
+      "n": 147,
+      "n_exp": 73,
+      "n_ctrl": 74,
+      "analysis_type": "primary",
+      "primary_endpoint": "ORR (BICR評価)",
+      "efficacy": {
+        "ORR": {
+          "exp": "64.4%",
+          "ctrl": "39.2%",
+          "OR": "2.443",
+          "CI95_OR": "1.403–4.253",
+          "p_one_sided": "0.0008"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.44",
+          "CI95": "0.27–0.70",
+          "p_one_sided": "0.0002"
+        },
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "20.3ヶ月",
+          "HR": "0.56",
+          "CI95": "0.34–0.94",
+          "p": "NR",
+          "OS_18month_exp": "72.0%",
+          "OS_18month_ctrl": "54.9%",
+          "note": "OS is secondary endpoint; data cutoff March 1, 2025; 41% events at analysis"
+        },
+        "other": "median DoR: 13.9 vs 11.1ヶ月 (durability of response); 18ヶ月OS率 72.0% vs 54.9%"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "両群で治療中止率は同程度; 新規安全性シグナルなし"
+      },
+      "clinical_significance": "BRAF V600E変異mCRC一次治療においてEC+FOLFIRIがFOLFIRI±bevに比べORR, PFS, OSすべてで有意に改善。BRAF阻害薬+EGFR抗体+FOLFIRIの新たな標準療法の可能性。",
+      "regulatory": {
+        "FDA": "BRAFTOVI combination (EC+mFOLFOX6) 2024年12月加速承認 → 2026年に本承認; EC+FOLFIRIは別コホート",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42219860",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-08 (Epub 2026-05-31)",
+        "volume_issue_pages": "37(8):1133-1143",
+        "doi": "NR (found via ASCO abstract DOI: 10.1200/JCO.2026.44.2_suppl.13 for conference; full paper in Ann Oncol)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219860/",
+        "conference_also": "ASCO GI 2026 (Jan 8-10, San Francisco) primary analysis; ASCO Annual Meeting 2026 (May 29-Jun 2, Chicago) updated PFS/OS"
+      },
+      "flags": ["BRAF_V600E", "EGFR_inhibitor", "第Ⅲ相主要解析", "FDA承認根拠"]
+    },
+    {
+      "trial_name": "COMMIT (NRG-GI004/SWOG-S1610)",
+      "nct_id": "NCT02997228",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "dMMR/MSI-H mCRC",
+      "setting": "一次治療",
+      "investigational_arm": "mFOLFOX6 + ベバシズマブ + アテゾリズマブ (triplet)",
+      "control_arm": "アテゾリズマブ単剤",
+      "n": 82,
+      "n_exp": 41,
+      "n_ctrl": 41,
+      "n_note": "計102例登録 (FFX/bev単独arm n=20はKEYNOTE-177結果受け早期閉鎖。比較はtriplet arm n=41 vs atezo単剤 n=41で実施)",
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS",
+      "efficacy": {
+        "PFS": {
+          "median_exp": "24.5ヶ月",
+          "CI95_exp": "10.1–NE",
+          "median_ctrl": "5.3ヶ月",
+          "HR": "0.439",
+          "CI95": "0.23–0.84",
+          "p": "0.0103"
+        },
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR",
+          "note": "OS未成熟"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "CR率: 36.1% (triplet arm); median follow-up: 3.5年"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR (combination armで高頻度)",
+        "ctrl_rate": "NR",
+        "notable_AEs": "triplet群でgrade 3-4 AEが高頻度: 好中球減少、感染症、高血圧、下痢"
+      },
+      "clinical_significance": "dMMR/MSI-H mCRC一次治療においてtriple therapyがPD-L1単剤に比べPFSを5.3ヶ月から24.5ヶ月に有意延長。ただし対照群は現在の標準治療(PD-1阻害薬)よりPFSが劣っており、臨床的意義の解釈に注意が必要。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42525921",
+        "journal": "Journal of Clinical Oncology",
+        "pub_date": "2026-07-29",
+        "doi": "10.1200/JCO-25-03052",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42525921/",
+        "conference_also": "ASCO GI 2026 (Jan 8-10, San Francisco); JCO 2026;44(2_suppl):14"
+      },
+      "flags": ["MSI-H", "dMMR", "免疫チェックポイント阻害薬", "PD-L1", "第Ⅲ相主要解析"]
+    },
+    {
+      "trial_name": "HORIZON-CRC01",
+      "nct_id": "NCT06199973",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "HER2陽性、RAS/RAF野生型、化学療法不応性進行CRC",
+      "setting": "3次治療以降 (化学療法抵抗性)",
+      "investigational_arm": "トラスツズマブ レゼテカン (trastuzumab rezetecan; HER2標的ADC)",
+      "control_arm": "標準治療 (SOC)",
+      "n": "NR",
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS (独立評価委員会評価)",
+      "efficacy": {
+        "PFS": {
+          "median_exp": "5.5ヶ月",
+          "median_ctrl": "2.8ヶ月",
+          "HR": "0.33",
+          "CI95": "NR",
+          "p_one_sided": "<0.0001"
+        },
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.77",
+          "CI95": "0.35–1.73",
+          "p": "NR",
+          "note": "OS未成熟 (数値的にはtrastuzumab rezetecan有利)"
+        },
+        "ORR": {
+          "exp": "40.7%",
+          "ctrl": "4.5%"
+        },
+        "other": "NR"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "grade ≥3 治療関連有害事象: 血液毒性が最多"
+      },
+      "clinical_significance": "HER2陽性・RAS/RAF野生型・化学療法抵抗性CRCにおいて、HER2標的ADCのtrastuzumab rezetecanがPFSとORRを有意改善。HER2陽性mCRC後治療ラインへの新規治療選択肢。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR (会議抄録のみ。査読論文は未確認)",
+        "journal": "Journal of Clinical Oncology (supplement)",
+        "pub_date": "2026-06 (ASCO Annual Meeting 2026)",
+        "volume_issue_pages": "44(16_suppl):3505",
+        "doi": "10.1200/JCO.2026.44.16_suppl.3505",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3505",
+        "conference": "ASCO Annual Meeting 2026, May 29 - June 2, Chicago",
+        "source_type": "conference_abstract",
+        "note": "ASCO Post 2026-09-25号で結果レビュー確認 (ascopost.com/issues/september-25-2026/)"
+      },
+      "flags": ["HER2陽性", "ADC", "RAS_RAF野生型", "化学療法抵抗性", "第Ⅲ相主要解析", "会議抄録のみ"]
+    },
+    {
+      "trial_name": "KRYSTAL-10",
+      "nct_id": "NCT04793958",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "KRAS G12C変異型 mCRC",
+      "setting": "二次治療 (1次治療フルオロピリミジン系doublet化学療法後)",
+      "investigational_arm": "アダグラシブ (adagrasib; KRAS G12C阻害薬) + セツキシマブ",
+      "control_arm": "化学療法 ± VEGF/VEGFRihibitor",
+      "n": 461,
+      "n_exp": 231,
+      "n_ctrl": 230,
+      "analysis_type": "primary",
+      "primary_endpoint": "co-primary: PFS (BICR) および OS",
+      "efficacy": {
+        "PFS": {
+          "median_exp": "7.5ヶ月",
+          "CI95_exp": "6.3–9.2",
+          "median_ctrl": "8.1ヶ月",
+          "CI95_ctrl": "7.3–9.2",
+          "HR": "0.89",
+          "CI95": "0.71–1.13",
+          "p": "0.3241",
+          "result": "主要評価項目未達成"
+        },
+        "OS": {
+          "median_exp": "21.6ヶ月",
+          "CI95_exp": "18.4–25.5",
+          "median_ctrl": "21.7ヶ月",
+          "CI95_ctrl": "18.0–24.8",
+          "HR": "0.83",
+          "CI95": "0.67–1.03",
+          "p": "0.0938",
+          "result": "主要評価項目未達成",
+          "min_followup": "35.3ヶ月"
+        },
+        "ORR": {
+          "exp": "47%",
+          "ctrl": "16%"
+        },
+        "other": "CR率: 7% (adagrasib+cetux) vs <1% (化学療法)"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR"
+      },
+      "clinical_significance": "KRAS G12C変異mCRCにおける2次治療でadagrasib+cetuximabはPFS・OSいずれも化学療法に対し統計的優越性を示せず。ORRは有意に高いが、主要評価項目不達成によりFDA加速承認は2026年9月1日をもって取り下げ。",
+      "regulatory": {
+        "FDA": "加速承認 (2024年6月) → 2026年9月1日取り下げ (KRYSTAL-10結果受け)",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR (査読論文は未確認)",
+        "journal": "NR",
+        "pub_date": "2026-07 (ESMO GI 2026 発表)",
+        "doi": "NR",
+        "url": "https://dailyreporter.esmo.org/esmo-gastrointestinal-cancers-congress-2026/news/adagrasib-plus-cetuximab-fails-to-outperform-chemotherapy-in-kras-g12c-mutated-metastatic-colorectal-cancer",
+        "conference": "ESMO Gastrointestinal Cancers Congress 2026, July 1-4, Munich (LBA1)",
+        "source_type": "conference_presentation",
+        "note": "全文論文の査読出版は2026年9月27日時点で未確認"
+      },
+      "flags": ["KRAS_G12C", "EGFR阻害薬", "主要評価項目未達成", "FDA承認取り下げ", "第Ⅲ相確認試験", "会議発表のみ"]
+    }
+  ],
+  "summary": {
+    "total_trials_included": 4,
+    "peer_reviewed_publications": 2,
+    "conference_abstracts_only": 2,
+    "trials_with_positive_primary_endpoint": 3,
+    "trials_with_negative_primary_endpoint": 1,
+    "trials_excluded_E5_outside_period": 5,
+    "trials_excluded_other": 2,
+    "notes": [
+      "BREAKWATER Cohort 3: 主要解析 (Ann Oncol 2026 Epub May 31). ASCO Annual Meeting 2026でもupdated PFS/OS発表 (詳細数値は取得できず)",
+      "ATOMIC trial (NEJM Mar 26, 2026): dMMR stage III colon癌の術後補助療法 - 期間外(2026年5月前)のため除外",
+      "SCOT trial (JCO Feb 2026): 術後補助療法期間(3 vs 6ヶ月) - 期間外のため除外",
+      "HARMONi-GI3 (ivonescimab, NCT07228832): Phase 3試験登録中 (Trials-in-Progress); 結果なし",
+      "BREAKWATER mFOLFOX6主要解析 (NEJM June 2025, PMID 40444708): 2025年発表のため除外",
+      "RC48-C027 (disitamab vedotin): 胃癌試験 - 大腸がんではないため除外",
+      "EMERALD-3: HCC試験 - 大腸がんではないため除外"
+    ]
+  }
+}

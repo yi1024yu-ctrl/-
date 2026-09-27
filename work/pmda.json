@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "PMDA承認抗がん剤データ（胃がん・大腸がん・乳がん）2026年5月〜9月",
+    "generated_date": "2026-09-27",
+    "description": "2026年5月〜9月にPMDAが承認した胃がん・大腸がん・乳がんに関する抗がん剤（新規承認・効能追加）",
+    "notes": [
+      "PMDA・厚生労働省ドメインへのアクセスが遮断されており、一次情報源PDFの直接参照は不可",
+      "情報はニュース記事・製薬会社プレスリリース・学術記事のWeb検索から収集",
+      "大腸がん領域：確認できた新規承認なし（検索の限界による可能性あり）",
+      "承認日はプレスリリースおよびPMDA文書URL（P番号）から推定"
+    ]
+  },
+  "search_log": [
+    {
+      "query": "PMDA 承認 2026年 胃がん 大腸がん 乳がん 抗がん剤",
+      "results": "2026年度承認品目一覧ページ、AstraZenecaプレスリリース（イミフィンジ胃がん）、Springer Natureの規制更新論文タイトルなど",
+      "urls_checked": [
+        "https://www.pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0040.html（アクセス遮断）",
+        "https://link.springer.com/article/10.1007/s10147-026-03119-7（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "イミフィンジ 胃がん 承認 2026年 日本 MATTERHORN",
+      "results": "2026年6月19日承認確認（AstraZeneca）、MATTERHORN試験に基づく術前・術後補助療法",
+      "urls_checked": [
+        "https://www.astrazeneca.co.jp/news/press-releases1/2026/202606191.html（アクセス遮断）",
+        "https://oncolo.jp/news/260624ra01（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "テスリーリ チスレリズマブ 胃がん 承認 2026年 PMDA",
+      "results": "2026年6月19日承認確認（RATIONALE-305試験）、最適使用推進ガイドライン発出日（令和8年6月19日）が確認根拠",
+      "urls_checked": [
+        "https://www.japal.org/dom/notice/2026063017.html（アクセス遮断）",
+        "https://medical-tribune.co.jp/news/articles/?blogid=7&entryid=612247（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "エトカマ カミゼストラント 乳がん 承認日 2026年 PMDA ESR1",
+      "results": "PMDA審議結果報告書URL（P20260710002）から承認日2026年7月10日を推定、部会了承日2026年5月25日",
+      "urls_checked": [
+        "https://www.pmda.go.jp/drugs/2026/P20260710002/670227000_30800AMX00146_A100_1.pdf（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "エンハーツ ダトロウェイ 乳がん 一次治療 承認 2026年9月 日本",
+      "results": "2026年9月16日に両剤の乳がん一次治療承認確認（第一三共プレスリリース、iyakutsushinsha.com）",
+      "urls_checked": [
+        "https://iyakutsushinsha.com/2026/09/16/（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "ビラフトビ 大腸がん 一次治療 2026年 部会 BREAKWATER",
+      "results": "第二部会了承（「新薬３製品が承認へ ビラフトビの結腸直腸がん１次治療の追加など」）を確認したが承認日不明・ミクスOnlineアクセス遮断",
+      "urls_checked": [
+        "https://www.mixonline.jp/tabid55.html?artid=79204（アクセス遮断）"
+      ]
+    },
+    {
+      "query": "2026年8月 薬事審議会 部会 抗がん剤",
+      "results": "2026年8月24日の第二部会でペムブロリズマブ皮下注製剤・エンハーツHER2陽性乳がん一次治療・ダトロウェイTNBC一次治療等が了承されたことを確認",
+      "urls_checked": [
+        "https://medical.nikkeibp.co.jp/leaf/all/cancernavi/news/202608/594334.html（アクセス遮断）"
+      ]
+    }
+  ],
+  "approvals": [
+    {
+      "drug_name_jp": "イミフィンジ点滴静注120mg／500mg",
+      "drug_name_generic": "durvalumab (デュルバルマブ遺伝子組換え)",
+      "cancer_type": "gastric",
+      "approval_date": "2026-06-19",
+      "date_type": "承認日",
+      "approval_type": "新効能医薬品（一部変更承認）",
+      "indication_summary": "切除可能な胃癌における術前・術後補助療法（フルオロウラシル、ロイコボリン、オキサリプラチン及びドセタキセルとの併用：D-FLOTレジメン）",
+      "pivotal_trial": "MATTERHORN試験（第III相、国際共同）",
+      "url": "https://www.astrazeneca.co.jp/news/press-releases1/2026/202606191.html",
+      "source_quality": "要確認（プレスリリースURL確認済み、プレスリリース本文はアクセス遮断）",
+      "flags": [
+        "日本初の胃がん周術期免疫療法",
+        "承認日はAstraZenecaプレスリリース日付から確認",
+        "MATTERHORN試験：病勢進行・再発・死亡リスク29%減",
+        "部会了承日は不明（別途確認要）"
+      ]
+    },
+    {
+      "drug_name_jp": "テビムブラ点滴静注200mg",
+      "drug_name_generic": "tislelizumab (チスレリズマブ遺伝子組換え)",
+      "cancer_type": "gastric",
+      "approval_date": "2026-06-19",
+      "date_type": "承認日",
+      "approval_type": "新効能医薬品（一部変更承認）",
+      "indication_summary": "治癒切除不能な進行・再発の胃腺癌及び食道胃接合部腺癌の一次治療（フルオロピリミジン系薬剤及びプラチナ系薬剤との併用）",
+      "pivotal_trial": "RATIONALE-305試験（第III相、国際共同）",
+      "url": "https://medical-tribune.co.jp/rensai/articles/?blogid=11&entryid=605471",
+      "source_quality": "要確認（PMDA最適使用推進ガイドライン発出日2026年6月19日から承認日を確認、ガイドライン通知は日本薬事法務学会から間接確認）",
+      "flags": [
+        "承認日は令和8年6月19日医薬薬審発0619第1号（チスレリズマブ製剤最適使用推進ガイドライン）から確認",
+        "RATIONALE-305：mOS 15.0ヶ月 vs 12.9ヶ月、HR 0.80",
+        "抗PD-1抗体として日本3剤目",
+        "HER2陰性の胃腺癌・食道胃接合部腺癌が対象"
+      ]
+    },
+    {
+      "drug_name_jp": "エトカマ錠75mg",
+      "drug_name_generic": "camizestrant (カミゼストラント)",
+      "cancer_type": "breast",
+      "approval_date": "2026-07-10",
+      "date_type": "承認日",
+      "approval_type": "新有効成分含有医薬品",
+      "indication_summary": "ホルモン受容体陽性かつHER2陰性の手術不能又は再発乳癌（内分泌療法及びCDK4/6阻害剤による治療中にESR1遺伝子変異が確認された患者に限る、CDK4/6阻害剤との併用）",
+      "pivotal_trial": "SERENA-6試験（第III相、国際共同）",
+      "url": "https://www.pmda.go.jp/drugs/2026/P20260710002/670227000_30800AMX00146_A100_1.pdf",
+      "source_quality": "要確認（PMDA文書URL「P20260710002」から2026年7月10日を推定；審議結果報告書は2026年5月29日付）",
+      "flags": [
+        "部会了承日：2026年5月25日（薬事審議会 医薬品第二部会）",
+        "PMDA文書URL（P20260710002）の日付部分「20260710」から承認日2026-07-10を推定",
+        "SERENA-6：ctDNA監視を用いてESR1変異出現時にAI+CDK4/6 iからカミゼストラント+CDK4/6 iへ切り替え",
+        "国内2剤目の経口SERD（1剤目はイムルリオ/imlunestrant 2025年12月承認）",
+        "申請者：アストラゼネカ"
+      ]
+    },
+    {
+      "drug_name_jp": "エンハーツ点滴静注用100mg",
+      "drug_name_generic": "trastuzumab deruxtecan (トラスツズマブ デルクステカン遺伝子組換え)",
+      "cancer_type": "breast",
+      "approval_date": "2026-09-16",
+      "date_type": "承認日",
+      "approval_type": "製造販売承認事項一部変更承認（新効能・新用量）",
+      "indication_summary": "HER2陽性の手術不能又は再発乳癌の一次治療（ペルツズマブとの併用）",
+      "pivotal_trial": "DESTINY-Breast09試験（第III相、国際共同）",
+      "url": "https://iyakutsushinsha.com/2026/09/16/%E6%8A%97%E6%82%AA%E6%80%A7%E8%85%AB%E7%98%8D%E5%89%A4%E3%80%8C%E3%82%A8%E3%83%B3%E3%83%8F%E3%83%BC%E3%83%84%E3%80%8D%E3%80%81%E3%80%8C%E3%83%80%E3%83%88%E3%83%AD%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%8D/",
+      "source_quality": "要確認（iyakutsushinsha.com URL日付（2026/09/16）から承認日を確認；本文はアクセス遮断）",
+      "flags": [
+        "部会了承日：2026年8月24日（薬事審議会 医薬品第二部会）",
+        "DESTINY-Breast09：mPFS 40.7ヶ月（T-DXd+P） vs 26.9ヶ月（THP）、HR 0.56",
+        "申請者：第一三共・アストラゼネカ",
+        "HER2陽性乳がん一次治療の新スタンダードとして期待"
+      ]
+    },
+    {
+      "drug_name_jp": "ダトロウェイ点滴静注用100mg",
+      "drug_name_generic": "datopotamab deruxtecan (ダトポタマブ デルクステカン遺伝子組換え)",
+      "cancer_type": "breast",
+      "approval_date": "2026-09-16",
+      "date_type": "承認日",
+      "approval_type": "製造販売承認事項一部変更承認（新効能・新用量）",
+      "indication_summary": "ホルモン受容体陰性かつHER2陰性（トリプルネガティブ）の手術不能又は再発乳癌の一次治療（免疫療法の対象とならない患者）",
+      "pivotal_trial": "TROPION-Breast02試験（第III相、国際共同）",
+      "url": "https://iyakutsushinsha.com/2026/09/16/%E6%8A%97%E6%82%AA%E6%80%A7%E8%85%AB%E7%98%8D%E5%89%A4%E3%80%8C%E3%82%A8%E3%83%B3%E3%83%8F%E3%83%BC%E3%83%84%E3%80%8D%E3%80%81%E3%80%8C%E3%83%80%E3%83%88%E3%83%AD%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%8D/",
+      "source_quality": "要確認（iyakutsushinsha.com URL日付（2026/09/16）から承認日を確認；本文はアクセス遮断）",
+      "flags": [
+        "部会了承日：2026年8月24日（薬事審議会 医薬品第二部会）",
+        "申請者：第一三共・アストラゼネカ",
+        "TROPION-Breast02：免疫療法対象外のTNBC一次治療",
+        "承認日はエンハーツ同日（2026年9月16日）"
+      ]
+    }
+  ],
+  "colorectal_cancer_note": {
+    "message": "大腸がん（結腸がん・直腸がん）については、2026年5月〜9月の新規承認・効能追加を以下のように調査したが、確認できた一次承認は見つからなかった。",
+    "investigated_candidates": [
+      {
+        "drug_name_jp": "ビラフトビカプセル75mg",
+        "drug_name_generic": "encorafenib (エンコラフェニブ)",
+        "status": "要確認",
+        "note": "BRAF V600E変異陽性の切除不能進行・再発結腸・直腸がん一次治療（セツキシマブ・mFOLFOX6との3剤併用：BREAKWATER試験）の効能追加が「薬事審・第二部会が了承」と報告されているが（ミクスOnline）、承認日・部会了承日の確認ができなかった。2025年11月20日承認済みの2次/3次治療とは別申請。",
+        "pivotal_trial": "BREAKWATER試験（第III相）",
+        "possible_url": "https://www.mixonline.jp/tabid55.html?artid=79204（アクセス遮断）"
+      }
+    ]
+  }
+}
