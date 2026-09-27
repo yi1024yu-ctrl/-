@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "description": "FDA oncology approvals (gastric/colorectal/breast cancer), May–September 2026",
+    "generated_date": "2026-09-27",
+    "scope": "新規承認・適応追加（胃がん・大腸がん・乳がん）2026年5月〜9月",
+    "note": "大腸がんについては2026年5〜9月に対象がんへの新規医薬品承認は確認されなかった。adagrasib+cetuximabの大腸がん加速承認は2026年9月1日にFDAにより取り消された（KRYSTAL-10 phase 3試験で主要評価項目未達成）。"
+  },
+  "search_log": [
+    {
+      "query": "FDA oncology approval 2026 gastric colorectal breast cancer",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "AACR Q1/Q2 2026まとめ、CancerTherapyAdvisor 2026ラウンドアップなど確認"
+    },
+    {
+      "query": "FDA approval cancer drug July August September 2026 gastric breast colorectal",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "zanidatamab 8月25日承認、gedatolisib 7月14日承認を確認"
+    },
+    {
+      "query": "FDA approved zanidatamab gastric cancer 2026 NCT pivotal trial",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "HERIZON-GEA-01 (NCT05152147) 確認"
+    },
+    {
+      "query": "FDA approved vepdegestrant breast cancer 2026 approval date NCT indication",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "VERITAC-2 (NCT05654623) 5月1日承認確認"
+    },
+    {
+      "query": "FDA approved datopotamab deruxtecan TNBC May 2026 NCT TROPION",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "TROPION-Breast02 (NCT05374512) 5月22日承認確認"
+    },
+    {
+      "query": "FDA approved palbociclib Ibrance HER2 breast June 2026 NCT PATINA",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "PATINA (NCT02947685) 6月24日承認確認"
+    },
+    {
+      "query": "FDA sacituzumab govitecan Trodelvy TNBC June 2026 ASCENT-03 ASCENT-04",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "ASCENT-03 (NCT05382299), ASCENT-04/KEYNOTE-D19 (NCT05382286) 6月24日承認確認"
+    },
+    {
+      "query": "FDA approved trastuzumab deruxtecan Enhertu HER2 early breast May 2026 DESTINY-Breast",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "DESTINY-Breast11 (NCT05113251) および DESTINY-Breast05 (NCT04622319) 5月15日承認確認"
+    },
+    {
+      "query": "FDA camizestrant accelerated approval September 2026 NCT SERENA-6",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "SERENA-6 (NCT04964934) 9月4日加速承認確認"
+    },
+    {
+      "query": "FDA colorectal cancer approval May June July August September 2026",
+      "source": "WebSearch",
+      "date": "2026-09-27",
+      "hits": 9,
+      "notes": "新規薬剤承認なし。zanzalintinib+atezolizumab はNDA受理済みでPDUFA日2026年12月3日。adagrasib+cetuximab加速承認は9月1日撤回"
+    },
+    {
+      "url": "https://www.fda.gov/patients/hematology-oncology-cancer-approvals-safety-notifications",
+      "source": "WebFetch",
+      "date": "2026-09-27",
+      "result": "EGRESS_BLOCKED - FDA公式サイトへのアクセス不可",
+      "notes": "プロキシによりブロック。代替情報源（ONS, ASCO Post, CancerNetwork等）で補完"
+    }
+  ],
+  "approvals": [
+    {
+      "drug_name": "vepdegestrant (Veppanu)",
+      "cancer_type": "breast",
+      "approval_date": "2026-05-01",
+      "approval_type": "新規承認",
+      "indication_summary": "ER陽性・HER2陰性・ESR1変異を有する局所進行または転移性乳がんの成人患者で、転移性乳がんに対して少なくとも1ラインの内分泌療法後に進行した患者。FDA承認検査で検出。",
+      "pivotal_trial": "VERITAC-2",
+      "nct_id": "NCT05654623",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
+      "flags": ["first_PROTAC_drug_approval", "companion_dx_Guardant360CDx"]
+    },
+    {
+      "drug_name": "fam-trastuzumab deruxtecan-nxki (Enhertu) — 術前補助療法（neoadjuvant）",
+      "cancer_type": "breast",
+      "approval_date": "2026-05-15",
+      "approval_type": "適応追加",
+      "indication_summary": "HER2陽性（IHC 3+またはISH+）Stage IIまたはIIIの乳がん成人患者の術前補助療法として、T-DXdに続くパクリタキセル・トラスツズマブ・ペルツズマブ（THP）投与。",
+      "pivotal_trial": "DESTINY-Breast11",
+      "nct_id": "NCT05113251",
+      "pmid_if_available": "41130363",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
+      "flags": ["early_stage_breast_cancer", "same_date_as_DESTINY-Breast05_approval"]
+    },
+    {
+      "drug_name": "fam-trastuzumab deruxtecan-nxki (Enhertu) — 術後補助療法（adjuvant）",
+      "cancer_type": "breast",
+      "approval_date": "2026-05-15",
+      "approval_type": "適応追加",
+      "indication_summary": "術前HER2標的治療後に残存浸潤病変を有するHER2陽性（IHC 3+またはISH+）乳がん成人患者の術後補助療法。",
+      "pivotal_trial": "DESTINY-Breast05",
+      "nct_id": "NCT04622319",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
+      "flags": ["early_stage_breast_cancer", "same_date_as_DESTINY-Breast11_approval"]
+    },
+    {
+      "drug_name": "datopotamab deruxtecan-dlnk (Datroway)",
+      "cancer_type": "breast",
+      "approval_date": "2026-05-22",
+      "approval_type": "適応追加",
+      "indication_summary": "PD-1/PD-L1阻害薬ベース療法の適応とならない、切除不能な局所進行または転移性トリプルネガティブ乳がん（TNBC）成人患者（未治療）。",
+      "pivotal_trial": "TROPION-Breast02",
+      "nct_id": "NCT05374512",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer",
+      "flags": ["ADC", "TNBC_first_line_non_IO_eligible"]
+    },
+    {
+      "drug_name": "sacituzumab govitecan-hziy (Trodelvy) — 単剤療法",
+      "cancer_type": "breast",
+      "approval_date": "2026-06-24",
+      "approval_type": "適応追加",
+      "indication_summary": "PD-1/PD-L1阻害薬ベース療法の適応とならない、切除不能な局所進行または転移性TNBCの一次治療として単剤投与。",
+      "pivotal_trial": "ASCENT-03",
+      "nct_id": "NCT05382299",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+      "flags": ["TNBC_first_line", "non_IO_eligible"]
+    },
+    {
+      "drug_name": "sacituzumab govitecan-hziy + pembrolizumab (Trodelvy + Keytruda) — 併用療法",
+      "cancer_type": "breast",
+      "approval_date": "2026-06-24",
+      "approval_type": "適応追加",
+      "indication_summary": "PD-L1 CPS≧10のTNBC（切除不能な局所進行または転移性）成人患者の一次治療として、ペムブロリズマブ（±ベラヒアルロニダーゼ アルファ）との併用。",
+      "pivotal_trial": "ASCENT-04/KEYNOTE-D19",
+      "nct_id": "NCT05382286",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+      "flags": ["TNBC_first_line", "PD-L1_positive_CPS_ge10"]
+    },
+    {
+      "drug_name": "palbociclib (Ibrance)",
+      "cancer_type": "breast",
+      "approval_date": "2026-06-24",
+      "approval_type": "適応追加",
+      "indication_summary": "導入療法（タキサン+トラスツズマブ±ペルツズマブ）後に病勢進行のないHR陽性・HER2陽性局所進行または転移性乳がん成人患者の維持療法として、トラスツズマブ±ペルツズマブおよび内分泌療法との併用。",
+      "pivotal_trial": "PATINA",
+      "nct_id": "NCT02947685",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-palbociclib-trastuzumab-or-without-pertuzumab-and-endocrine-therapy-maintenance",
+      "flags": ["HR_positive_HER2_positive", "maintenance_therapy", "breakthrough_therapy_designation"]
+    },
+    {
+      "drug_name": "gedatolisib (Revtorpyk)",
+      "cancer_type": "breast",
+      "approval_date": "2026-07-14",
+      "approval_type": "新規承認",
+      "indication_summary": "PIK3CA変異を有さないHR陽性・HER2陰性の局所進行または転移性乳がん成人患者で、転移性乳がんに対して少なくとも1ラインの内分泌療法後に進行した患者へのフルベストラント±パルボシクリブとの併用。",
+      "pivotal_trial": "VIKTORIA-1 Study 1",
+      "nct_id": "NCT05501886",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally",
+      "flags": ["PIK3CA_wild_type", "pan_PI3K_mTOR_inhibitor", "first_in_class"]
+    },
+    {
+      "drug_name": "zanidatamab-hrii (Ziihera) + tislelizumab-jsgr (Tevimbra)",
+      "cancer_type": "gastric",
+      "approval_date": "2026-08-25",
+      "approval_type": "適応追加",
+      "indication_summary": "HER2陽性（IHC 3+またはIHC 2+/ISH+）の切除不能な局所進行または転移性の胃がん・胃食道接合部腺がん・食道腺がん成人患者の一次治療として、フルオロピリミジン・白金製剤含有化学療法との併用。",
+      "pivotal_trial": "HERIZON-GEA-01",
+      "nct_id": "NCT05152147",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zanidatamab-hrii-and-tislelizumab-jsgr-her2-positive-gastric-gastroesophageal-junction",
+      "flags": ["HER2_positive", "gastric_GEJ_esophageal", "bispecific_HER2_antibody"]
+    },
+    {
+      "drug_name": "camizestrant (Etcamah)",
+      "cancer_type": "breast",
+      "approval_date": "2026-09-04",
+      "approval_type": "迅速承認（加速承認）",
+      "indication_summary": "アロマターゼ阻害薬とCDK4/6阻害薬による治療中にFDA承認検査でESR1変異が検出されたHR陽性・HER2陰性局所進行または転移性乳がん成人患者へのCDK4/6阻害薬（アベマシクリブ・パルボシクリブ・リボシクリブのいずれか）との併用。",
+      "pivotal_trial": "SERENA-6",
+      "nct_id": "NCT04964934",
+      "pmid_if_available": "",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-camizestrant-cdk46-inhibitor-esr1-mutated-hr-positive-her2-negative",
+      "flags": ["accelerated_approval", "ESR1_mutation", "ctDNA_guided", "first_resistance_mutation_guided_approval", "companion_dx_Guardant360CDx"]
+    }
+  ],
+  "colorectal_note": {
+    "status": "2026年5月〜9月の大腸がん新規薬剤承認なし",
+    "details": [
+      "encorafenib (Braftovi) の BRAF V600E転移性大腸がんへの従来承認（従来承認への変換）は2026年2月24日（対象期間外）",
+      "zanzalintinib + atezolizumab (STELLAR-303): NDA受理済み、PDUFA日2026年12月3日（未承認）",
+      "adagrasib (Krazati) + cetuximab の KRAS G12C転移性大腸がんへの加速承認は2026年9月1日にFDAが取り消し（KRYSTAL-10 phase 3試験でOS・PFSとも主要評価項目未達成）"
+    ]
+  }
+}
