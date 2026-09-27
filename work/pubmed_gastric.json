@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "created_by": "PubMed-胃がん担当 収集エージェント",
+    "created_date": "2026-09-27",
+    "target_period": "2026-05-01 〜 2026-09-30",
+    "cancer_type": "胃がん（食道胃接合部腺がんを含む）",
+    "search_tool": "WebSearch / WebFetch"
+  },
+
+  "search_log": {
+    "queries_executed": [
+      {
+        "query": "PubMed gastric cancer phase III clinical trial 2026 results",
+        "hits_screened": 9,
+        "notes": "KC-WISE (PMID 41571045) を同定"
+      },
+      {
+        "query": "gastric cancer phase 3 randomized trial 2026 immunotherapy pembrolizumab nivolumab",
+        "hits_screened": 9,
+        "notes": "KEYNOTE-585, ATTRACTION-4, ATTRACTION-6 等を確認。KEYNOTE-585最終解析はOct 2025公表のため期間外（E5）"
+      },
+      {
+        "query": "gastric cancer HER2 ADC claudin zolbetuximab phase 3 trial 2026 results published",
+        "hits_screened": 9,
+        "notes": "LUCERNA trial (PMID 42583212) を同定 — ただし内容確認の結果、trial-in-progress論文であり有効性結果なし → E2除外"
+      },
+      {
+        "query": "ASCO 2026 gastric cancer phase III trial results gastroesophageal",
+        "hits_screened": 9,
+        "notes": "HERIZON-GEA-01、ATTRACTION-6 を同定"
+      },
+      {
+        "query": "LUCERNA trial zolbetuximab pembrolizumab gastric phase 3 results 2026 PMID journal",
+        "hits_screened": 9,
+        "notes": "LUCERNA: ESMO Gastrointest Oncol 2026年9月号掲載だがtrial-in-progress（TPS）であり有効性エンドポイントデータなし → E2除外"
+      },
+      {
+        "query": "KC-WISE trial anbenitamab HER2 gastric cancer phase 3 results 2026 OS PFS PMID",
+        "hits_screened": 9,
+        "notes": "KC-WISE詳細データ取得: OS 19.6 vs 11.5 mo, HR 0.29, p<0.0001; Annals Oncology 2026 Jun"
+      },
+      {
+        "query": "MATTERHORN trial gastric cancer perioperative 2026 results OS published PMID journal",
+        "hits_screened": 9,
+        "notes": "MATTERHORN最終OS解析: Lancet Sep 9, 2026, DOI 10.1016/S0140-6736(26)01254-7"
+      },
+      {
+        "query": "ASTRUM-006 serplulimab gastric cancer perioperative phase 3 2026 results PMID OS PFS",
+        "hits_screened": 9,
+        "notes": "ASTRUM-006: Lancet Jun 20, 2026; PMID 42225112"
+      },
+      {
+        "query": "HERIZON-GEA-01 zanidatamab NEJM 2026 OS PFS results median HR phase 3",
+        "hits_screened": 9,
+        "notes": "HERIZON-GEA-01: NEJM May 27, 2026; DOI 10.1056/NEJMoa2517729"
+      },
+      {
+        "query": "sonesitatug vedotin CLDN18.2 gastric phase 3 trial 2026 OS results AstraZeneca PMID journal",
+        "hits_screened": 9,
+        "notes": "CLARITY-Gastric01: AstraZeneca press release Jul 27, 2026; 査読誌掲載未確認"
+      },
+      {
+        "query": "ATTRACTION-6 nivolumab ipilimumab gastric phase 3 2026 results PMID journal published",
+        "hits_screened": 9,
+        "notes": "ATTRACTION-6: ASCO 2026 Abstract 4006; 査読誌掲載未確認"
+      },
+      {
+        "query": "CheckMate 649 nivolumab gastric cancer updated analysis 2026 PMID published",
+        "hits_screened": 9,
+        "notes": "CheckMate 649 5年追跡: Annals Oncology 2026 Jun; PMID 41687718"
+      },
+      {
+        "query": "PRODIGE 51 GASTFOX TFOX FOLFOX gastric cancer phase 3 Lancet Oncology 2026",
+        "hits_screened": 9,
+        "notes": "PRODIGE 51 GASTFOX: PMID 40286809; Lancet Oncol 公表日 Apr 23, 2025 → 期間外（E5）除外"
+      },
+      {
+        "query": "DESTINY-Gastric04 trastuzumab deruxtecan gastric cancer phase 3 2026 published OS results PMID",
+        "hits_screened": 9,
+        "notes": "DESTINY-Gastric04: ASCO 2025 / NEJM 2025公表 → 期間外（E5）除外"
+      },
+      {
+        "query": "cadonilimab gastric cancer phase 3 first-line 2026 results PMID journal OS PFS",
+        "hits_screened": 9,
+        "notes": "COMPASSION-15 (cadonilimab): Nature Medicine Jan 2025 公表 → 期間外（E5）除外"
+      },
+      {
+        "query": "KEYNOTE-585 perioperative gastric cancer pembrolizumab phase 3 2026 results published PMID",
+        "hits_screened": 9,
+        "notes": "KEYNOTE-585 最終解析: JCO Oct 2025 公表 → 期間外（E5）除外。2026年はMSI-H部分群解析のみ（E2除外）"
+      },
+      {
+        "query": "site:pubmed.ncbi.nlm.nih.gov gastric cancer phase 3 2026 randomized",
+        "hits_screened": 9,
+        "notes": "Preoperative CRT vs CT (PMID 41625476): Jan 2026 公表 → 期間外（E5）除外"
+      },
+      {
+        "query": "CLARITY-Gastric01 sonesitatug vedotin phase 3 published PMID journal 2026 OS results interim",
+        "hits_screened": 9,
+        "notes": "CLARITY-Gastric01の正式査読論文未確認。プレスリリース（Jul 27, 2026）のみ"
+      },
+      {
+        "query": "HERIZON-GEA-01 zanidatamab NEJM May 2026 PMID DOI NCT05152147 publication details",
+        "hits_screened": 9,
+        "notes": "DOI 10.1056/NEJMoa2517729確認、PMID未取得、出版日May 27, 2026確認"
+      },
+      {
+        "query": "MATTERHORN durvalumab FLOT gastric cancer Lancet PMID 2026 NCT04592913",
+        "hits_screened": 9,
+        "notes": "MATTERHORN: PMID 未確認（Lancet 2026年9月分）; NCT04592913 確認"
+      }
+    ],
+    "domains_blocked": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "pmc.ncbi.nlm.nih.gov",
+      "ascopost.com",
+      "www.astrazeneca.com",
+      "www.oncologynewscentral.com",
+      "www.ajmc.com",
+      "www.cancernetwork.com",
+      "www.targetedonc.com",
+      "www.sciencedirect.com",
+      "investor.jazzpharma.com",
+      "www.biopharminternational.com",
+      "www.biospace.com",
+      "www.prnewswire.com",
+      "www.researchgate.net",
+      "scholars.duke.edu",
+      "www.asco.org",
+      "www.esmo.org",
+      "www.gioncologynow.com",
+      "vhio.net",
+      "gastroagi.com",
+      "oncodaily.com",
+      "www.clinicaltrialsarena.com",
+      "www.businesswire.com",
+      "www.medscape.com"
+    ],
+    "exclusions": [
+      {"trial": "PRODIGE 51 GASTFOX", "reason": "E5: 公表日 2025年4月（対象期間外）", "PMID": "40286809"},
+      {"trial": "DESTINY-Gastric04 (T-DXd)", "reason": "E5: ASCO 2025 / NEJM 2025 公表（対象期間外）"},
+      {"trial": "KEYNOTE-585 最終解析", "reason": "E5: JCO Oct 2025 公表（対象期間外）"},
+      {"trial": "KEYNOTE-585 MSI-H部分群解析", "reason": "E2: サブグループ解析"},
+      {"trial": "COMPASSION-15 (cadonilimab)", "reason": "E5: Nature Medicine Jan 2025 公表（対象期間外）"},
+      {"trial": "LUCERNA (PMID 42583212)", "reason": "E2: Trial-in-Progress論文（有効性データなし）"},
+      {"trial": "Preoperative CRT vs CT 中国 (PMID 41625476)", "reason": "E5: 2026年1月公表（対象期間外）"},
+      {"trial": "MATTERHORN (NEJM 2025, PMID 40454643)", "reason": "E5: EFS主要解析は2025年6月公表（対象期間外）。OS最終解析（Lancet Sep 2026）は別エントリとして収録"},
+      {"trial": "CheckMate 649 4-year follow-up", "reason": "E5: 2025年公表（対象期間外）"}
+    ]
+  },
+
+  "trials": [
+    {
+      "trial_name": "HERIZON-GEA-01",
+      "nct_id": "NCT05152147",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "HER2陽性（IHC 3+またはFISH陽性）",
+      "setting": "一次治療（切除不能局所進行または転移）",
+      "investigational_arm": "Arm A: zanidatamab + 化学療法（CAPOX または mFOLFOX6）; Arm B: zanidatamab + tislelizumab + 化学療法",
+      "control_arm": "Arm C: trastuzumab + 化学療法",
+      "n": 914,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS（Arm A vs C）、PFS（Arm B vs C）および OS（Arm B vs C）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "Arm B: 26.4ヶ月",
+          "median_ctrl": "19.2ヶ月（Arm C）",
+          "HR": "0.72（Arm B vs C）",
+          "CI95": "NR",
+          "p": "有意（詳細値未確認）"
+        },
+        "PFS": {
+          "median_exp": "12.4ヶ月（Arm A, Arm B 共通）",
+          "median_ctrl": "8.1ヶ月（Arm C）",
+          "HR": "0.63–0.65（各 Arm vs C）",
+          "CI95": "NR",
+          "p": "有意"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "本試験として mGEA で初めて中央値 PFS 1年超・OS 2年超を達成。データカットオフ 2025年10月、中央追跡期間 26ヶ月"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（詳細値未確認）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR"
+      },
+      "clinical_significance": "HER2陽性進行GEA一次治療において、zanidatamab（bispecific抗HER2抗体）±tislelizumab+化学療法がtrastuzumab+化学療法に対し初めてPFS・OS有意改善を示した。潜在的新標準治療と評価。FDA Priority Review 取得。",
+      "regulatory": {
+        "FDA": "Priority Review 付与（2026年初）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（NEJM未掲載確認済み DOI より）",
+        "journal": "New England Journal of Medicine",
+        "pub_date": "2026-05-27",
+        "doi": "10.1056/NEJMoa2517729",
+        "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2517729"
+      },
+      "flags": ["dual_primary_endpoint", "three_arm_trial", "bispecific_antibody"]
+    },
+    {
+      "trial_name": "KC-WISE",
+      "nct_id": "NR",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "HER2陽性（trastuzumab含む前治療後に増悪）",
+      "setting": "二次治療以降",
+      "investigational_arm": "anbenitamab（KN026、抗HER2 biparatopic抗体）30 mg/kg q3w + 化学療法",
+      "control_arm": "プラセボ + 化学療法",
+      "n": 187,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS（事前規定中間解析）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "19.6ヶ月",
+          "median_ctrl": "11.5ヶ月",
+          "HR": "0.29",
+          "CI95": "NR",
+          "p": "<0.0001"
+        },
+        "PFS": {
+          "median_exp": "7.1ヶ月",
+          "median_ctrl": "2.7ヶ月",
+          "HR": "0.25",
+          "CI95": "NR",
+          "p": "<0.0001"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "試験実施は中国51施設"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "60%（56/94例）",
+        "ctrl_rate": "45%（42/93例）",
+        "notable_AEs": "好中球減少症（30% vs 22%）、白血球減少症（21% vs 25%）"
+      },
+      "clinical_significance": "trastuzumab治療歴あるHER2陽性胃/GEJ腺癌に対し、anbenitamab（biparatopic抗体）+化学療法がOS・PFS共に対プラセボ比で大幅改善。HER2+ 2次治療における新オプション。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "41571045",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-06",
+        "doi": "10.1016/j.annonc.2026.01.006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41571045/"
+      },
+      "flags": ["bispecific_antibody", "China_trial", "prespecified_interim_analysis"]
+    },
+    {
+      "trial_name": "ASTRUM-006",
+      "nct_id": "NR",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "PD-L1 CPS≥5（登録条件）；主要解析集団 CPS≥10",
+      "setting": "術前術後療法（切除可能局所進行）",
+      "investigational_arm": "serplulimab（抗PD-1）+ SOX（S-1 + オキサリプラチン）3週毎 → 手術 → serplulimab 術後",
+      "control_arm": "プラセボ + SOX → 手術 → SOX術後（adjuvant）",
+      "n": 588,
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（CPS≥10集団）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（未成熟）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR（追跡継続中）"
+        },
+        "PFS": {
+          "median_exp": "NR（EFSとして報告）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "EFS（CPS≥10集団）: NR vs 42.0ヶ月、HR 0.65（95%CI 0.47–0.90）、p=0.0082; EFS（ITT）: NR vs 35.9ヶ月、HR 0.73（95%CI 0.56–0.94）、p=0.015; pCR率 serplulimab群 21.6%（対照群詳細値NR）; 中央追跡期間 42.7ヶ月（CPS≥10集団）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "46.6%",
+        "ctrl_rate": "58.5%",
+        "notable_AEs": "治療中止率: serplulimab 6.5% vs 対照 10.5%"
+      },
+      "clinical_significance": "PD-L1陽性切除可能胃/GEJ腺癌の術前術後療法にserplulimab（抗PD-1）を追加することで、特にCPS≥10集団でEFS有意改善。MATTERHORN（durvalumab+FLOT）と並ぶ新たな術前術後免疫療法の根拠。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42225112",
+        "journal": "The Lancet",
+        "pub_date": "2026-06-20",
+        "doi": "10.1016/S0140-6736(26)00974-8",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00974-8/abstract"
+      },
+      "flags": ["perioperative_setting", "EFS_primary_endpoint", "OS_immature"]
+    },
+    {
+      "trial_name": "CheckMate 649（5年追跡解析）",
+      "nct_id": "NCT02872116",
+      "cancer_type": "gastric / gastroesophageal junction / esophageal adenocarcinoma",
+      "subtype_biomarker": "PD-L1 CPS≥5（主要解析集団）；HER2陰性",
+      "setting": "一次治療（切除不能局所進行または転移）",
+      "investigational_arm": "nivolumab 360 mg q3w + CAPOX（または FOLFOX6）",
+      "control_arm": "CAPOX（または FOLFOX6）単独",
+      "n": 1581,
+      "analysis_type": "long_term_followup",
+      "primary_endpoint": "OS（CPS≥5集団）、PFS（CPS≥5）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "14.4ヶ月",
+          "median_ctrl": "11.1ヶ月",
+          "HR": "0.71",
+          "CI95": "0.61–0.81",
+          "p": "NR（有効性は原試験で確立済み）"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.71",
+          "CI95": "0.61–0.82",
+          "p": "NR"
+        },
+        "ORR": {
+          "exp": "58%",
+          "ctrl": "46%"
+        },
+        "other": "5年OS率: 16% vs 6%（CPS≥5）。5年PFS率: 10% vs 6%。奏効持続期間 中央値 8.5 vs 6.9ヶ月。最短追跡期間60.1ヶ月（データカットオフ不明）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（5年追跡解析での新たな安全性懸念なし）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "新たな安全性シグナルなし"
+      },
+      "clinical_significance": "nivolumab+化学療法の5年長期追跡で持続的OS・PFS改善を確認。PD-1阻害薬+化学療法として初の5年追跡データ。長期生存者における持続的ベネフィットを実証。",
+      "regulatory": {
+        "FDA": "承認済み（2021年）",
+        "PMDA": "承認済み（2021年）"
+      },
+      "source": {
+        "PMID": "41687718",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-06",
+        "doi": "10.1016/j.annonc.2026.01.006（CheckMate 649 5yr; 正確なDOI未確認）",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41687718/"
+      },
+      "flags": ["long_term_followup", "includes_esophageal_adeno"]
+    },
+    {
+      "trial_name": "MATTERHORN（最終OS解析）",
+      "nct_id": "NCT04592913",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "限定なし（stage II〜IVa切除可能）",
+      "setting": "術前術後療法（切除可能局所進行）",
+      "investigational_arm": "durvalumab 1500 mg q4w + FLOT q2w（術前4サイクル → 術後4サイクル + durvalumab 術後10サイクル継続）",
+      "control_arm": "プラセボ + FLOT",
+      "n": 948,
+      "analysis_type": "updated_OS",
+      "primary_endpoint": "EFS（主要解析は NEJM 2025 で既報）；本報告: 最終OS解析",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（未到達）",
+          "median_ctrl": "NR（未到達）",
+          "HR": "0.78",
+          "CI95": "0.63–0.96",
+          "p": "0.021"
+        },
+        "PFS": {
+          "median_exp": "NR（EFSとして既報）",
+          "median_ctrl": "32.8ヶ月（EFS、NEJM 2025より）",
+          "HR": "0.71（EFS、NEJM 2025より）",
+          "CI95": "NR（EFS）",
+          "p": "<0.001（EFS）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "データカットオフ 2025年9月1日; 中央追跡期間 約41–43ヶ月; 死亡: durvalumab群 160/474（34%）vs 対照群 192/474（41%）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "72%",
+        "ctrl_rate": "71%",
+        "notable_AEs": "重篤有害事象: 48% vs 44%。免疫関連有害事象はdurvalumab群で多い（詳細値NR）"
+      },
+      "clinical_significance": "durvalumab+FLOT 術前術後療法が切除可能胃/GEJ腺癌においてOS有意改善（HR 0.78, p=0.021）。FDA承認取得済み（2026年）。MATTERHORN の最終OS解析として perioperative免疫療法の新標準を確立。",
+      "regulatory": {
+        "FDA": "承認（durvalumab+FLOT、2026年）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（Lancet 2026年9月号の新規PMID未確認）",
+        "journal": "The Lancet",
+        "pub_date": "2026-09-09",
+        "doi": "10.1016/S0140-6736(26)01254-7",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01254-7/fulltext"
+      },
+      "flags": ["final_OS_analysis", "primary_EFS_previously_published_NEJM2025", "perioperative_setting"]
+    },
+    {
+      "trial_name": "CLARITY-Gastric01",
+      "nct_id": "NCT06346392",
+      "cancer_type": "gastric / gastroesophageal junction / esophageal adenocarcinoma",
+      "subtype_biomarker": "CLDN18.2陽性（腫瘍細胞≥25%でany intensity）",
+      "setting": "二次治療以降（2L+）；主要OSエンドポイントは3L+",
+      "investigational_arm": "sonesitatug vedotin（Sone-Ve、CLDN18.2標的ADC）",
+      "control_arm": "investigator's choice（医師選択療法）",
+      "n": "NR（詳細未確認）",
+      "analysis_type": "primary",
+      "primary_endpoint": "OS（3L+集団）および PFS（2L+集団）の dual primary endpoint",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（数値未開示）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "統計的有意（p値未開示）"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR（OSのみ発表済み）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "3L+ OS（主要エンドポイント）: 統計的有意かつ臨床的に意義ある改善。2L+ OS（key secondary）: 有意改善。AstraZenecaプレスリリース（2026-07-27）による高レベル結果のみ公表。詳細数値は査読論文未掲載"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR（プレスリリースでは安全性プロファイル詳細なし）"
+      },
+      "clinical_significance": "CLDN18.2陽性の2L+以降進行胃/GEJ/食道腺癌において、CLDN18.2標的ADC sonesitatug vedotinが世界初の3L+ OS改善を示した。規制申請準備中。",
+      "regulatory": {
+        "FDA": "NR（申請準備中と推定）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（査読誌掲載未確認）",
+        "journal": "未公表（AstraZenecaプレスリリース）",
+        "pub_date": "2026-07-27（プレスリリース）",
+        "doi": "NR",
+        "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html"
+      },
+      "flags": ["press_release_only", "no_peer_reviewed_publication_confirmed", "CLDN18.2_ADC", "dual_primary_endpoint"]
+    },
+    {
+      "trial_name": "ATTRACTION-6",
+      "nct_id": "NCT05144854",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "HER2陰性；MSS（大部分）",
+      "setting": "一次治療（切除不能進行または再発）",
+      "investigational_arm": "nivolumab 360 mg q3w + ipilimumab 1 mg/kg q6w + 化学療法",
+      "control_arm": "化学療法単独",
+      "n": 626,
+      "analysis_type": "primary",
+      "primary_endpoint": "OS",
+      "efficacy": {
+        "OS": {
+          "median_exp": "15.7ヶ月",
+          "median_ctrl": "15.8ヶ月",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NS（主要エンドポイント未達）"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "中央追跡期間 31.3ヶ月。nivolumab+ipilimumab+化学療法は毒性増加かつ生存改善なし"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（毒性増加あり）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "免疫関連有害事象がnivolumab+ipilimumab群で増加（詳細値NR）"
+      },
+      "clinical_significance": "HER2陰性胃/GEJ腺癌一次治療において、PD-1+CTLA-4 dual checkpoint阻害（nivolumab+ipilimumab）+化学療法はOSを改善せず毒性が増加。MSS腫瘍では dual checkpoint blockadeが無効であることを示す。",
+      "regulatory": {
+        "FDA": "NR（開発継続の可能性低）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（ASCO 2026 Annual Meeting Abstract 4006; 査読誌掲載未確認）",
+        "journal": "ASCO 2026 Annual Meeting（抄録）",
+        "pub_date": "2026-06（ASCO 2026）",
+        "doi": "NR",
+        "url": "https://www.asco.org/abstracts-presentations/262600"
+      },
+      "flags": ["negative_trial", "abstract_only_no_journal_publication_confirmed", "Japan_Korea_Taiwan"]
+    }
+  ]
+}
