@@ -1,0 +1,909 @@
+{
+  "meta": {
+    "generated_date": "2026-09-27",
+    "scope": "2026年5月〜9月 胃がん・大腸がん・乳がん 第Ⅲ相試験・承認情報",
+    "total_trials": 12,
+    "qc_notes": "重複統合3件（HERIZON-GEA-01: gastric+FDA、MATTERHORN: gastric+PMDA、TROPION-Breast02: breast+FDA+PMDA）。SERENA-6はPubMedでE3除外だがFDA/PMDA承認根拠のため本編収録（例外適用）。TROPION-Breast02はepub日2026-04-03が期間外、印刷版2026-08は期間内、PMID確認済み・FDA/PMDA承認根拠のため本編収録（例外適用）。MATTERHORN regulatory.FDA: pubmed_gastric.jsonに承認記録あるがfda.json非収録のため要確認フラグ付与。",
+    "qc_version": "1.0",
+    "input_files": [
+      "pubmed_gastric.json (胃がん7試験)",
+      "pubmed_colorectal.json (大腸がん4試験)",
+      "pubmed_breast.json (乳がん6試験)",
+      "fda.json (FDA承認10件)",
+      "pmda.json (PMDA承認5件)"
+    ]
+  },
+
+  "trials": [
+    {
+      "trial_name": "HERIZON-GEA-01",
+      "nct_id": "NCT05152147",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "HER2陽性（IHC 3+またはFISH陽性）",
+      "setting": "一次治療（切除不能局所進行または転移）",
+      "investigational_arm": "Arm A: zanidatamab + 化学療法（CAPOX または mFOLFOX6）; Arm B: zanidatamab + tislelizumab + 化学療法",
+      "control_arm": "Arm C: trastuzumab + 化学療法",
+      "n": 914,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS（Arm A vs C）、PFS（Arm B vs C）および OS（Arm B vs C）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "Arm B: 26.4ヶ月",
+          "median_ctrl": "19.2ヶ月（Arm C）",
+          "HR": "0.72（Arm B vs C）",
+          "CI95": "NR",
+          "p": "有意（詳細値NR）"
+        },
+        "PFS": {
+          "median_exp": "12.4ヶ月（Arm A、Arm B共通）",
+          "median_ctrl": "8.1ヶ月（Arm C）",
+          "HR": "0.63–0.65（各Arm vs C）",
+          "CI95": "NR",
+          "p": "有意"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "mGEAとして初めて中央値PFS 1年超・OS 2年超を達成。データカットオフ 2025年10月、中央追跡期間 26ヶ月"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR"
+      },
+      "clinical_significance": "HER2陽性進行GEA一次治療において、zanidatamab（bispecific抗HER2抗体）±tislelizumab+化学療法がtrastuzumab+化学療法に対し初めてPFS・OS有意改善を示した。潜在的新標準治療。",
+      "regulatory": {
+        "FDA": "承認（zanidatamab-hrii + tislelizumab-jsgr, Ziihera+Tevimbra; 2026-08-25）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（NEJM DOI確認済み、PMID未取得）",
+        "journal": "New England Journal of Medicine",
+        "pub_date": "2026-05-27",
+        "doi": "10.1056/NEJMoa2517729",
+        "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2517729",
+        "source_files": ["pubmed_gastric.json", "fda.json"]
+      },
+      "flags": ["dual_primary_endpoint", "three_arm_trial", "bispecific_antibody", "FDA_approved_2026-08-25"]
+    },
+    {
+      "trial_name": "KC-WISE",
+      "nct_id": "NR",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "HER2陽性（trastuzumab含む前治療後に増悪）",
+      "setting": "二次治療以降",
+      "investigational_arm": "anbenitamab（KN026、抗HER2 biparatopic抗体）30 mg/kg q3w + 化学療法",
+      "control_arm": "プラセボ + 化学療法",
+      "n": 187,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS（事前規定中間解析）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "19.6ヶ月",
+          "median_ctrl": "11.5ヶ月",
+          "HR": "0.29",
+          "CI95": "NR",
+          "p": "<0.0001"
+        },
+        "PFS": {
+          "median_exp": "7.1ヶ月",
+          "median_ctrl": "2.7ヶ月",
+          "HR": "0.25",
+          "CI95": "NR",
+          "p": "<0.0001"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "試験実施は中国51施設"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "60%（56/94例）",
+        "ctrl_rate": "45%（42/93例）",
+        "notable_AEs": "好中球減少症（30% vs 22%）、白血球減少症（21% vs 25%）"
+      },
+      "clinical_significance": "trastuzumab治療歴あるHER2陽性胃/GEJ腺癌に対し、anbenitamab（biparatopic抗体）+化学療法がOS・PFS共に大幅改善。HER2+ 2次治療における新オプション。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "41571045",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-06",
+        "doi": "10.1016/j.annonc.2026.01.006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41571045/",
+        "source_files": ["pubmed_gastric.json"]
+      },
+      "flags": ["bispecific_antibody", "China_trial", "prespecified_interim_analysis"]
+    },
+    {
+      "trial_name": "ASTRUM-006",
+      "nct_id": "NR",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "PD-L1 CPS≥5（登録条件）；主要解析集団 CPS≥10",
+      "setting": "術前術後療法（切除可能局所進行）",
+      "investigational_arm": "serplulimab（抗PD-1）+ SOX（S-1 + オキサリプラチン）3週毎 → 手術 → serplulimab 術後",
+      "control_arm": "プラセボ + SOX → 手術 → SOX術後（adjuvant）",
+      "n": 588,
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（CPS≥10集団）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（未成熟）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR（追跡継続中）"
+        },
+        "PFS": {
+          "median_exp": "NR（EFSとして報告）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "median_exp": "NR（未到達）",
+          "median_ctrl": "42.0ヶ月（CPS≥10集団）",
+          "HR": "0.65",
+          "CI95": "0.47–0.90",
+          "p": "0.0082"
+        },
+        "EFS_ITT": {
+          "median_ctrl": "35.9ヶ月",
+          "HR": "0.73",
+          "CI95": "0.56–0.94",
+          "p": "0.015"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "pCR率 serplulimab群 21.6%（対照群詳細値NR）；中央追跡期間 42.7ヶ月（CPS≥10集団）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "46.6%",
+        "ctrl_rate": "58.5%",
+        "notable_AEs": "治療中止率: serplulimab 6.5% vs 対照 10.5%"
+      },
+      "clinical_significance": "PD-L1陽性切除可能胃/GEJ腺癌の術前術後療法にserplulimab（抗PD-1）追加でCPS≥10集団のEFSが有意改善。MATTERHORN（durvalumab+FLOT）と並ぶ術前術後免疫療法の根拠。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42225112",
+        "journal": "The Lancet",
+        "pub_date": "2026-06-20",
+        "doi": "10.1016/S0140-6736(26)00974-8",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00974-8/abstract",
+        "source_files": ["pubmed_gastric.json"]
+      },
+      "flags": ["perioperative_setting", "EFS_primary_endpoint", "OS_immature"]
+    },
+    {
+      "trial_name": "CheckMate 649（5年追跡解析）",
+      "nct_id": "NCT02872116",
+      "cancer_type": "gastric / gastroesophageal junction / esophageal adenocarcinoma",
+      "subtype_biomarker": "PD-L1 CPS≥5（主要解析集団）；HER2陰性",
+      "setting": "一次治療（切除不能局所進行または転移）",
+      "investigational_arm": "nivolumab 360 mg q3w + CAPOX（または FOLFOX6）",
+      "control_arm": "CAPOX（または FOLFOX6）単独",
+      "n": 1581,
+      "analysis_type": "long_term_followup",
+      "primary_endpoint": "OS（CPS≥5集団）、PFS（CPS≥5）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "14.4ヶ月",
+          "median_ctrl": "11.1ヶ月",
+          "HR": "0.71",
+          "CI95": "0.61–0.81",
+          "p": "NR（有効性は原試験で確立済み）"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.71",
+          "CI95": "0.61–0.82",
+          "p": "NR"
+        },
+        "ORR": {
+          "exp": "58%",
+          "ctrl": "46%"
+        },
+        "other": "5年OS率: 16% vs 6%（CPS≥5）。5年PFS率: 10% vs 6%。奏効持続期間中央値 8.5 vs 6.9ヶ月。最短追跡期間 60.1ヶ月"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（5年追跡解析での新たな安全性懸念なし）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "新たな安全性シグナルなし"
+      },
+      "clinical_significance": "nivolumab+化学療法の5年長期追跡で持続的OS・PFS改善を確認。PD-1阻害薬+化学療法として初の5年追跡データ。",
+      "regulatory": {
+        "FDA": "承認済み（2021年、本追跡解析は期間内）",
+        "PMDA": "承認済み（2021年）"
+      },
+      "source": {
+        "PMID": "41687718",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-06",
+        "doi": "10.1016/j.annonc.2026.01.006（正確なDOI未確認）",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41687718/",
+        "source_files": ["pubmed_gastric.json"]
+      },
+      "flags": ["long_term_followup", "includes_esophageal_adeno"]
+    },
+    {
+      "trial_name": "MATTERHORN（最終OS解析）",
+      "nct_id": "NCT04592913",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "subtype_biomarker": "限定なし（stage II〜IVa切除可能）",
+      "setting": "術前術後療法（切除可能局所進行）",
+      "investigational_arm": "durvalumab 1500 mg q4w + FLOT q2w（術前4サイクル → 術後4サイクル + durvalumab 術後10サイクル継続）",
+      "control_arm": "プラセボ + FLOT",
+      "n": 948,
+      "analysis_type": "updated_OS",
+      "primary_endpoint": "EFS（主要解析はNEJM 2025で既報）；本報告: 最終OS解析",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（未到達）",
+          "median_ctrl": "NR（未到達）",
+          "HR": "0.78",
+          "CI95": "0.63–0.96",
+          "p": "0.021"
+        },
+        "PFS": {
+          "median_exp": "NR（EFSとして既報）",
+          "median_ctrl": "32.8ヶ月（EFS、NEJM 2025より）",
+          "HR": "0.71（EFS、NEJM 2025より）",
+          "CI95": "NR（EFS）",
+          "p": "<0.001（EFS）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "データカットオフ 2025年9月1日；中央追跡期間 約41–43ヶ月；死亡: durvalumab群 160/474（34%）vs 対照群 192/474（41%）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "72%",
+        "ctrl_rate": "71%",
+        "notable_AEs": "重篤有害事象: 48% vs 44%。免疫関連有害事象はdurvalumab群で多い（詳細値NR）"
+      },
+      "clinical_significance": "durvalumab+FLOT 術前術後療法が切除可能胃/GEJ腺癌においてOS有意改善（HR 0.78, p=0.021）。perioperative免疫療法の新標準。",
+      "regulatory": {
+        "FDA": "QC注記: pubmed_gastric.jsonでは「承認（durvalumab+FLOT、2026年）」と記録されているが、fda.json（2026年5–9月収集）に対応する承認記録なし。承認時期・範囲を要確認",
+        "PMDA": "承認（イミフィンジ/durvalumab; 切除可能胃がん術前術後補助療法; 2026-06-19）"
+      },
+      "source": {
+        "PMID": "NR（Lancet 2026年9月号の新規PMID未確認）",
+        "journal": "The Lancet",
+        "pub_date": "2026-09-09",
+        "doi": "10.1016/S0140-6736(26)01254-7",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01254-7/fulltext",
+        "source_files": ["pubmed_gastric.json", "pmda.json"]
+      },
+      "flags": ["final_OS_analysis", "primary_EFS_previously_published_NEJM2025", "perioperative_setting", "PMDA_approved_2026-06-19", "FDA_approval_status_unconfirmed_in_fda.json"]
+    },
+    {
+      "trial_name": "BREAKWATER Cohort 3",
+      "nct_id": "NCT04607421",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "BRAF V600E変異型 mCRC",
+      "setting": "一次治療",
+      "investigational_arm": "エンコラフェニブ + セツキシマブ + FOLFIRI（EC+FOLFIRI）",
+      "control_arm": "FOLFIRI ± ベバシズマブ",
+      "n": 147,
+      "n_exp": 73,
+      "n_ctrl": 74,
+      "analysis_type": "primary",
+      "primary_endpoint": "ORR（BICR評価）",
+      "efficacy": {
+        "ORR": {
+          "exp": "64.4%",
+          "ctrl": "39.2%",
+          "OR": "2.443",
+          "CI95_OR": "1.403–4.253",
+          "p_one_sided": "0.0008"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.44",
+          "CI95": "0.27–0.70",
+          "p_one_sided": "0.0002"
+        },
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "20.3ヶ月",
+          "HR": "0.56",
+          "CI95": "0.34–0.94",
+          "p": "NR",
+          "OS_18month_exp": "72.0%",
+          "OS_18month_ctrl": "54.9%",
+          "note": "OS is secondary endpoint; data cutoff March 1, 2025; 41% events at analysis"
+        },
+        "other": "median DoR: 13.9 vs 11.1ヶ月；18ヶ月OS率 72.0% vs 54.9%"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "両群で治療中止率は同程度；新規安全性シグナルなし"
+      },
+      "clinical_significance": "BRAF V600E変異mCRC一次治療においてEC+FOLFIRIがFOLFIRI±bevに比べORR、PFS、OSすべてで有意改善。BRAF阻害薬+EGFR抗体+FOLFIRIの新たな標準療法の可能性。",
+      "regulatory": {
+        "FDA": "EC+mFOLFOX6は2024年12月加速承認 → 2026年本承認（別コホート）。EC+FOLFIRIは本コホートの結果に基づき検討中",
+        "PMDA": "QC注記: encorafenib BRAF V600E mCRC一次治療（セツキシマブ+mFOLFOX6）の効能追加が薬事審議会第二部会で了承と報告（ミクスOnline）されているが、承認日・部会了承日の確認不可（pmda.json「要確認」）"
+      },
+      "source": {
+        "PMID": "42219860",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-08（Epub 2026-05-31）",
+        "volume_issue_pages": "37(8):1133-1143",
+        "doi": "NR（Ann Oncol full paper）",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219860/",
+        "source_files": ["pubmed_colorectal.json", "pmda.json"]
+      },
+      "flags": ["BRAF_V600E", "EGFR_inhibitor", "PMDA_approval_status_unconfirmed"]
+    },
+    {
+      "trial_name": "COMMIT（NRG-GI004/SWOG-S1610）",
+      "nct_id": "NCT02997228",
+      "cancer_type": "colorectal",
+      "subtype_biomarker": "dMMR/MSI-H mCRC",
+      "setting": "一次治療",
+      "investigational_arm": "mFOLFOX6 + ベバシズマブ + アテゾリズマブ（triplet）",
+      "control_arm": "アテゾリズマブ単剤",
+      "n": 82,
+      "n_note": "計102例登録（FFX/bev単独arm n=20はKEYNOTE-177結果受け早期閉鎖。比較はtriplet n=41 vs atezo単剤 n=41）",
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS",
+      "efficacy": {
+        "PFS": {
+          "median_exp": "24.5ヶ月",
+          "CI95_exp": "10.1–NE",
+          "median_ctrl": "5.3ヶ月",
+          "HR": "0.439",
+          "CI95": "0.23–0.84",
+          "p": "0.0103"
+        },
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR（OS未成熟）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "CR率: 36.1%（triplet arm）；中央追跡期間 3.5年"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（combination armで高頻度）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "triplet群でgrade 3-4 AE高頻度: 好中球減少、感染症、高血圧、下痢"
+      },
+      "clinical_significance": "dMMR/MSI-H mCRC一次治療においてtriple therapyがPD-L1単剤に比べPFSを5.3→24.5ヶ月に有意延長。ただし対照群は現行標準（PD-1阻害薬）より劣っており臨床的意義の解釈に注意。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42525921",
+        "journal": "Journal of Clinical Oncology",
+        "pub_date": "2026-07-29",
+        "doi": "10.1200/JCO-25-03052",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42525921/",
+        "source_files": ["pubmed_colorectal.json"]
+      },
+      "flags": ["MSI-H", "dMMR", "control_arm_is_not_current_SOC"]
+    },
+    {
+      "trial_name": "PEARLY（KCSG BR 15-1）",
+      "nct_id": "NCT02441933",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（トリプルネガティブ乳がん）ステージII-III",
+      "setting": "周術期（ネオアジュバント/アジュバント）早期乳がん",
+      "investigational_arm": "アントラサイクリン後タキサン + カルボプラチン",
+      "control_arm": "アントラサイクリン後タキサン",
+      "n": "NR",
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（無イベント生存期間）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "rate_5yr_exp": "81.9%",
+          "rate_5yr_ctrl": "74.4%",
+          "HR": "0.68",
+          "CI95": "0.50–0.93",
+          "p": "0.017"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "追跡期間中央値 51.1ヶ月。IDFS・DRFSもカルボプラチン群で良好。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（カルボプラチン群で対照群より高い）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "カルボプラチン追加によりGrade≥3 AE増加するもQOLに臨床的に有意な悪化なし"
+      },
+      "clinical_significance": "早期TNBCのネオアジュバント/アジュバント療法にカルボプラチン追加がEFSを有意改善。アンスラサイクリン/タキサンへのカルボプラチン追加の有用性を確立。韓国多施設ランダム化第III相試験。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42218963",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-05-30",
+        "doi": "10.1016/j.annonc.2026.05.703",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42218963/",
+        "source_files": ["pubmed_breast.json"]
+      },
+      "flags": ["Korea_KCSG_trial", "generalizability_note: Asian_population"]
+    },
+    {
+      "trial_name": "HORIZON-Breast01",
+      "nct_id": "NCT05424835",
+      "cancer_type": "breast",
+      "subtype_biomarker": "HER2陽性転移性乳がん",
+      "setting": "二次治療以降（トラスツズマブ+タキサン前治療後）",
+      "investigational_arm": "トラスツズマブ・レゼテカン（SHR-A1811；HER2標的ADC）4.8 mg/kg IV q3w",
+      "control_arm": "ピロチニブ 400mg/日 + カペシタビン 1000mg/m2 bid d1-14 q3w",
+      "n": 287,
+      "n_exp": 142,
+      "n_ctrl": 145,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFS（BICR評価）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（interim解析のため未成熟）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "30.6ヶ月",
+          "median_ctrl": "8.3ヶ月",
+          "HR": "0.22",
+          "CI95": "0.15–0.34",
+          "p": "<0.0001"
+        },
+        "PFS_12mo": {
+          "exp": "84.7%（95%CI 77.0–90.0）",
+          "ctrl": "35.5%（95%CI 26.8–44.2）"
+        },
+        "ORR": {
+          "exp": "81.7%",
+          "ctrl": "NR"
+        },
+        "other": "2022年8月〜2024年8月登録；追跡期間中央値 約15.5ヶ月"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（好中球減少54%、白血球減少20%、血小板減少11%が主）",
+        "ctrl_rate": "NR（好中球減少9%、白血球減少3%）",
+        "notable_AEs": "Grade≥3好中球数減少 54% vs 9%；ILD 3% vs 0%；重篤なTRAE 13% vs 12%"
+      },
+      "clinical_significance": "HER2陽性転移性乳がんの前治療後患者においてトラスツズマブ・レゼテカン（SHR-A1811）がピロチニブ+カペシタビン（中国標準治療）に対しPFS中央値30.6 vs 8.3ヶ月（HR 0.22）と劇的改善。中国多施設第III相試験の中間解析。",
+      "regulatory": {
+        "FDA": "NR（中国国内試験）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42385760",
+        "journal": "The Lancet Oncology",
+        "pub_date": "2026-07-01",
+        "doi": "10.1016/S1470-2045(26)00193-2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42385760/",
+        "source_files": ["pubmed_breast.json"]
+      },
+      "flags": ["China_trial", "control_arm_pyrotinib_capecitabine_not_global_standard", "interim_analysis", "OS_immature"]
+    },
+    {
+      "trial_name": "NSABP B-59/GeparDouze",
+      "nct_id": "NR（NSABP B-59として登録と推定）",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（ステージII-III 早期）",
+      "setting": "周術期（ネオアジュバント+アジュバント）早期乳がん",
+      "investigational_arm": "アテゾリズマブ + ネオアジュバント逐次タキサン-カルボプラチン-アントラサイクリン → アジュバント・アテゾリズマブ",
+      "control_arm": "プラセボ + ネオアジュバント逐次タキサン-カルボプラチン-アントラサイクリン → アジュバント・プラセボ",
+      "n": 1550,
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（無イベント生存期間）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.86",
+          "CI95": "0.62–1.19",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "rate_4yr_exp": "NR（対照比 +3.3ポイント差）",
+          "rate_4yr_ctrl": "NR",
+          "HR": "0.80",
+          "CI95": "0.62–1.03",
+          "p": "0.083（主要評価項目未達成）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "事前規定サブグループでリンパ節転移陽性患者でatezolizumabの有益性を示す不均一性あり（交互作用p=0.039）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR"
+      },
+      "clinical_significance": "早期TNBCへのアテゾリズマブ追加はEFSを有意改善しなかった（HR 0.80, p=0.083）。IMpassion031（陰性）と一致。KEYNOTE-522（ペムブロリズマブ）の成功と対照的。",
+      "regulatory": {
+        "FDA": "NR（アテゾリズマブの乳がん適応は2021年に承認撤回済）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（Nature MedicineのためPMID未取得）",
+        "journal": "Nature Medicine",
+        "pub_date": "2026-09-01",
+        "doi": "10.1038/s41591-026-04565-6",
+        "url": "https://www.nature.com/articles/s41591-026-04565-6",
+        "source_files": ["pubmed_breast.json"]
+      },
+      "flags": ["negative_trial", "EFS_primary_endpoint_not_met", "NCT_unconfirmed"]
+    },
+    {
+      "trial_name": "TROPION-Breast02",
+      "nct_id": "NCT05374512",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（切除不能局所進行/転移、免疫療法適応外）",
+      "setting": "一次治療（転移）",
+      "investigational_arm": "ダトポタマブ・デルクステカン（Dato-DXd；TROP2標的ADC）6 mg/kg IV q3w",
+      "control_arm": "医師選択化学療法",
+      "n": 644,
+      "n_exp": 323,
+      "n_ctrl": 321,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFSおよびOS（co-primary）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "23.7ヶ月",
+          "median_ctrl": "18.7ヶ月",
+          "HR": "0.79",
+          "CI95": "NR",
+          "p": "0.0290"
+        },
+        "PFS": {
+          "median_exp": "10.8ヶ月",
+          "median_ctrl": "5.6ヶ月",
+          "HR": "0.57",
+          "CI95": "0.47–0.69",
+          "p": "<0.0001"
+        },
+        "ORR": {
+          "exp": "64%",
+          "ctrl": "30%"
+        },
+        "other": "2022年5月16日〜2024年6月11日に644例登録。Grade≥3 TRAEは両群で同程度。Dato-DXd群でのTRAEによる投与中止率は化学療法群より低い。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（化学療法と同程度と報告）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "Grade≥3 TRAEは両群で同程度。Dato-DXd群のTRAEによる投与中止率は化学療法群より低い。"
+      },
+      "clinical_significance": "免疫療法適応外の1次治療TNBCで、Dato-DXdが化学療法に対してPFS・OS双方を有意改善。免疫療法不適格TNBCの新標準治療として確立。FDA・PMDA承認取得済み。",
+      "regulatory": {
+        "FDA": "承認（datopotamab deruxtecan-dlnk / Datroway; 転移性TNBC; 2026-05-22）",
+        "PMDA": "承認（ダトロウェイ; TNBC一次治療; 2026-09-16）"
+      },
+      "source": {
+        "PMID": "41937088",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-08（印刷版）; online first 2026-04-03",
+        "doi": "10.1016/j.annonc.2026.03.008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41937088/",
+        "source_files": ["pubmed_breast.json", "fda.json", "pmda.json"]
+      },
+      "flags": [
+        "epub_date_2026-04-03_outside_window",
+        "print_date_2026-08_inside_window",
+        "PMID_confirmed",
+        "FDA_approved_2026-05-22",
+        "PMDA_approved_2026-09-16",
+        "included_per_exception: PMID_confirmed_AND_FDA_PMDA_approved",
+        "OS_CI95_NR"
+      ]
+    },
+    {
+      "trial_name": "SERENA-6",
+      "nct_id": "NCT04964934",
+      "cancer_type": "breast",
+      "subtype_biomarker": "HR陽性・HER2陰性、ESR1変異（AI+CDK4/6阻害薬治療中にctDNA検査で検出）",
+      "setting": "AI+CDK4/6阻害薬による治療中に増悪（転移性/局所進行）",
+      "investigational_arm": "camizestrant（経口SERD）+ CDK4/6阻害薬",
+      "control_arm": "AI（アロマターゼ阻害薬）+ CDK4/6阻害薬（継続）",
+      "n": "NR",
+      "analysis_type": "primary",
+      "primary_endpoint": "NR（元ファイルに詳細数値なし）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "ctDNA監視によりESR1変異出現時にAI+CDK4/6 iからcamizestrant+CDK4/6 iへ切り替えるデザイン（pmda.jsonより）"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR"
+      },
+      "clinical_significance": "ctDNA監視でESR1変異を検出したHR+/HER2-進行乳がんに対しcamizestrantへの早期切り替えを評価。FDA加速承認（2026-09-04）およびPMDA承認（2026-07-10）の根拠試験。",
+      "regulatory": {
+        "FDA": "加速承認（camizestrant / Etcamah; ESR1変異HR+/HER2-局所進行/転移性乳がん; CDK4/6阻害薬との併用; 2026-09-04）",
+        "PMDA": "承認（エトカマ錠75mg/camizestrant; HR+HER2−手術不能/再発乳癌; CDK4/6阻害薬との併用; 2026-07-10）"
+      },
+      "source": {
+        "PMID": "NR（Lancet Oncol掲載確認済みだがPMID未取得）",
+        "journal": "The Lancet Oncology",
+        "pub_date": "2026-07-13",
+        "doi": "NR",
+        "url": "NR",
+        "source_files": ["pubmed_breast.json（exclusion note）", "fda.json", "pmda.json"]
+      },
+      "flags": [
+        "initially_excluded_E3_in_pubmed_breast_search",
+        "included_per_exception: FDA_PMDA_approved",
+        "oral_SERD",
+        "accelerated_approval_FDA",
+        "efficacy_data_NR_in_source_files",
+        "ctDNA_guided_treatment_switch"
+      ]
+    }
+  ],
+
+  "regulatory_only": [
+    {
+      "trial_name": "DESTINY-Breast05",
+      "nct_id": "NCT04622319",
+      "cancer_type": "breast",
+      "description": "T-DXd（Enhertu）術後補助療法（adjuvant）。HER2陽性早期乳がん、術前HER2標的治療後に残存浸潤病変あり。",
+      "regulatory": {
+        "FDA": "適応追加（2026-05-15）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "E5: NEJM掲載 2025年12月（オンライン）/ 2026年2月（印刷版）; 対象期間前",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
+        "source_files": ["fda.json", "pubmed_breast.json（exclusion E5）"]
+      }
+    },
+    {
+      "trial_name": "ASCENT-03",
+      "nct_id": "NCT05382299",
+      "cancer_type": "breast",
+      "description": "sacituzumab govitecan単剤（Trodelvy）。PD-1/PD-L1阻害薬ベース療法適応外の転移性TNBC一次治療。",
+      "regulatory": {
+        "FDA": "適応追加（2026-06-24）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "E5: NEJM掲載 2025年10月; 対象期間前（PMID 41124233）",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+        "source_files": ["fda.json", "pubmed_breast.json（exclusion E5）"]
+      }
+    },
+    {
+      "trial_name": "ASCENT-04/KEYNOTE-D19",
+      "nct_id": "NCT05382286",
+      "cancer_type": "breast",
+      "description": "sacituzumab govitecan + pembrolizumab（Trodelvy+Keytruda）。PD-L1 CPS≥10の転移性TNBC一次治療。",
+      "regulatory": {
+        "FDA": "適応追加（2026-06-24）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "E5: NEJM掲載 2026年1月; 対象期間前（DOI 10.1056/NEJMoa2508959）",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+        "source_files": ["fda.json", "pubmed_breast.json（exclusion E5）"]
+      }
+    },
+    {
+      "trial_name": "PATINA",
+      "nct_id": "NCT02947685",
+      "cancer_type": "breast",
+      "description": "palbociclib（Ibrance）+ trastuzumab ± pertuzumab + 内分泌療法（維持療法）。HR+/HER2+局所進行/転移性乳がん。",
+      "regulatory": {
+        "FDA": "適応追加（2026-06-24）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "PubMed収集なし（pubmed_breast.json非収録）",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-palbociclib-trastuzumab-or-without-pertuzumab-and-endocrine-therapy-maintenance",
+        "source_files": ["fda.json"]
+      }
+    },
+    {
+      "trial_name": "VERITAC-2",
+      "nct_id": "NCT05654623",
+      "cancer_type": "breast",
+      "description": "vepdegestrant（Veppanu; PROTAC degrader）。ESR1変異HR+/HER2−局所進行/転移性乳がん; 転移性乳がんに対して少なくとも1ライン内分泌療法後。",
+      "regulatory": {
+        "FDA": "新規承認（2026-05-01; 初のPROTAC薬剤承認）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "PubMed収集なし（pubmed_breast.json非収録）",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
+        "source_files": ["fda.json"]
+      }
+    },
+    {
+      "trial_name": "VIKTORIA-1 Study 1",
+      "nct_id": "NCT05501886",
+      "cancer_type": "breast",
+      "description": "gedatolisib（Revtorpyk; pan-PI3K/mTOR阻害薬）+ fulvestrant ± palbociclib。PIK3CA変異なしHR+/HER2−局所進行/転移性乳がん。",
+      "regulatory": {
+        "FDA": "新規承認（2026-07-14; 初のpan-PI3K/mTOR阻害薬承認）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "PubMed収集なし（pubmed_breast.json非収録）",
+      "source": {
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally",
+        "source_files": ["fda.json"]
+      }
+    },
+    {
+      "trial_name": "DESTINY-Breast11",
+      "nct_id": "NCT05113251",
+      "cancer_type": "breast",
+      "description": "T-DXd（Enhertu）術前補助療法（neoadjuvant）。HER2陽性（IHC 3+またはISH+）Stage II–III乳がん。T-DXd後にTHP投与。",
+      "regulatory": {
+        "FDA": "適応追加（2026-05-15）",
+        "PMDA": "NR"
+      },
+      "pubmed_status": "PMID 41130363（fda.jsonに記載）; pubmed_breast.jsonに収録なし（検索時の捕捉漏れの可能性）",
+      "source": {
+        "PMID": "41130363",
+        "FDA_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
+        "source_files": ["fda.json"]
+      }
+    },
+    {
+      "trial_name": "DESTINY-Breast09",
+      "nct_id": "NR",
+      "cancer_type": "breast",
+      "description": "T-DXd（エンハーツ）+ pertuzumab。HER2陽性手術不能/再発乳がん一次治療。mPFS 40.7ヶ月（T-DXd+P）vs 26.9ヶ月（THP）、HR 0.56。",
+      "regulatory": {
+        "FDA": "NR（fda.jsonに収録なし）",
+        "PMDA": "承認（エンハーツ; HER2陽性乳がん一次治療; 2026-09-16）"
+      },
+      "pubmed_status": "PubMed収集なし（pubmed_breast.json非収録）",
+      "source": {
+        "PMDA_url": "https://iyakutsushinsha.com/2026/09/16/",
+        "source_files": ["pmda.json"]
+      }
+    },
+    {
+      "trial_name": "RATIONALE-305",
+      "nct_id": "NR",
+      "cancer_type": "gastric",
+      "description": "tislelizumab（テビムブラ/Tevimbra）+ フルオロピリミジン+プラチナ化学療法。HER2陰性の治癒切除不能進行/再発胃腺癌/GEJ腺癌一次治療。mOS 15.0 vs 12.9ヶ月、HR 0.80。",
+      "regulatory": {
+        "FDA": "NR（fda.jsonに収録なし; 既に別適応で承認済みか確認要）",
+        "PMDA": "承認（テビムブラ点滴静注200mg; 2026-06-19; 抗PD-1抗体として日本3剤目）"
+      },
+      "pubmed_status": "PubMed収集なし（pubmed_gastric.json非収録）",
+      "source": {
+        "PMDA_source": "最適使用推進ガイドライン発出日2026-06-19（令和8年6月19日医薬薬審発0619第1号）から間接確認",
+        "source_files": ["pmda.json"]
+      }
+    }
+  ],
+
+  "review_required": [
+    {
+      "trial_name": "HORIZON-CRC01",
+      "nct_id": "NCT06199973",
+      "cancer_type": "colorectal",
+      "reason": "会議抄録のみ（ASCO Annual Meeting 2026; JCO 44:16_suppl:3505）。査読論文未掲載。FDA/PMDA承認なし。範囲適合要確認。",
+      "available_data_summary": "トラスツズマブ・レゼテカン vs SOC; HER2陽性RAS/RAF野生型化学療法抵抗性CRC; PFS中央値 5.5 vs 2.8ヶ月、HR 0.33（p<0.0001）；ORR 40.7% vs 4.5%；OS HR 0.77（95%CI 0.35–1.73、未成熟）",
+      "action_required": "査読論文掲載確認後、本編trials arrayに移動",
+      "source": {
+        "PMID": "NR",
+        "doi": "10.1200/JCO.2026.44.16_suppl.3505",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3505",
+        "source_files": ["pubmed_colorectal.json"]
+      }
+    }
+  ],
+
+  "excluded": [
+    {
+      "trial_name": "KRYSTAL-10",
+      "nct_id": "NCT04793958",
+      "cancer_type": "colorectal",
+      "exclusion_code": "E_conference_only",
+      "exclusion_reason": "学会発表のみ（ESMO GI 2026 LBA1）、査読論文未掲載。さらにFDA加速承認（2024年6月）が2026年9月1日に取り消し（KRAS G12C mCRC 2L、adagrasib+cetuximab vs chemo、PFS HR 0.89 p=0.3241、OS HR 0.83 p=0.0938、いずれも主要評価項目未達成）。陰性試験として特筆事項あり。",
+      "data_summary": "adagrasib+cetuximab vs chemo; n=461; PFS中央値 7.5 vs 8.1ヶ月; OS中央値 21.6 vs 21.7ヶ月; ORR 47% vs 16%",
+      "regulatory_note": "FDA加速承認 2024-06-05 → 取り消し 2026-09-01",
+      "source_files": ["pubmed_colorectal.json", "fda.json"]
+    },
+    {
+      "trial_name": "CLARITY-Gastric01",
+      "nct_id": "NCT06346392",
+      "cancer_type": "gastric / gastroesophageal junction / esophageal adenocarcinoma",
+      "exclusion_code": "E_press_release_only",
+      "exclusion_reason": "プレスリリースのみ（AstraZeneca 2026-07-27）。査読誌掲載未確認。詳細数値未開示（高レベル結果のみ）。",
+      "data_summary": "sonesitatug vedotin（CLDN18.2標的ADC）vs investigator's choice; 3L+ OS有意改善（主要EP）; 2L+ OS改善（key secondary）; 数値は未公開",
+      "source_files": ["pubmed_gastric.json"]
+    },
+    {
+      "trial_name": "ATTRACTION-6",
+      "nct_id": "NCT05144854",
+      "cancer_type": "gastric / gastroesophageal junction",
+      "exclusion_code": "E_abstract_only",
+      "exclusion_reason": "ASCO 2026 Annual Meeting Abstract 4006のみ。査読誌掲載未確認。陰性試験（主要評価項目OS未達成）。",
+      "data_summary": "nivolumab+ipilimumab+chemo vs chemo; n=626; OS中央値 15.7 vs 15.8ヶ月（NS）; 毒性増加かつ生存改善なし",
+      "source_files": ["pubmed_gastric.json"]
+    },
+    {
+      "trial_name": "PANKU-Breast02（BL-B01D1-307）",
+      "nct_id": "NR",
+      "cancer_type": "breast",
+      "exclusion_code": "E_abstract_only",
+      "exclusion_reason": "ASCO 2026 Annual Meeting Abstract LBA1003のみ。査読論文PMIDは未確認。",
+      "data_summary": "iza-bren（izalontamab brengitecan; bispecific EGFR/HER3 ADC）vs chemo; n=418; PFS HR 0.29（p<0.0001）; OS HR 0.60（p=0.0019）; mTNBC 2L+",
+      "source_files": ["pubmed_breast.json"]
+    },
+    {
+      "trial_name": "KEYNOTE-522（最終OS解析）",
+      "nct_id": "NCT03036488",
+      "cancer_type": "breast",
+      "exclusion_code": "E_abstract_only",
+      "exclusion_reason": "ASCO 2026 Annual Meeting Abstract（JCO 44:16_suppl:507）のみ。独立した査読論文PMIDは現時点で未確認。",
+      "data_summary": "pembro+chemo → pembro（perioperative）vs placebo+chemo → placebo; n=1174; 追跡期間中央値93.8ヶ月; 7年EFS 78.3% vs 69.8%（HR 0.68, 95%CI 0.54–0.86）; 7年OS 85.1% vs 77.2%; OS HR・p値NR",
+      "source_files": ["pubmed_breast.json"]
+    }
+  ]
+}
