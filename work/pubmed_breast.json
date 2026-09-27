@@ -1,0 +1,438 @@
+{
+  "search_log": {
+    "search_date": "2026-09-27",
+    "agent": "PubMed-乳がん担当 収集エージェント",
+    "target_period": "2026-05-01 to 2026-09-27",
+    "queries_used": [
+      "PubMed breast cancer phase III clinical trial 2026 results published",
+      "breast cancer HER2 ADC trastuzumab deruxtecan phase 3 2026 results",
+      "breast cancer CDK4/6 inhibitor palbociclib ribociclib abemaciclib phase III 2026",
+      "breast cancer immunotherapy pembrolizumab atezolizumab phase III trial 2026 results published",
+      "triple negative breast cancer TNBC phase 3 trial 2026 results OS PFS",
+      "breast cancer phase III 2026 NEJM Lancet JCO published May June July August September",
+      "monarchE overall survival abemaciclib publication date 2026 Annals Oncology PMID",
+      "DESTINY-Breast05 NEJM publication date 2026 March April May PMID doi",
+      "ASCENT-04 KEYNOTE-D19 NEJM publication date 2026 doi pmid sacituzumab govitecan pembrolizumab",
+      "breast cancer HR positive PI3K AKT VIKTORIA gedatolisib fulvestrant phase III 2026 results JCO",
+      "breast cancer phase 3 iza-bren izalontamab brengitecan TNBC 2026 publication journal",
+      "breast cancer phase 3 trials ASCO 2026 annual meeting results published June July 2026",
+      "KEYNOTE-522 pembrolizumab TNBC final OS analysis 2026 ASCO publication PMID",
+      "DESTINY-Breast11 trastuzumab deruxtecan neoadjuvant HER2 phase 3 2026 results Annals of Oncology",
+      "CITRINE trial carboplatin TNBC adjuvant BMJ 2026 PMID January publication phase 3",
+      "PEARLY KCSG BR 15-1 carboplatin TNBC publication date May 2026 Annals Oncology PMID doi",
+      "palbociclib HER2 positive breast cancer NEJM 2026 phase 3 publication NEJMoa2511218",
+      "TROPION-Breast02 datopotamab deruxtecan TNBC phase 3 ESMO Breast Cancer 2026 results publication",
+      "NSABP B-59 GeparDouze atezolizumab TNBC Nature Medicine 2026 publication date PMID",
+      "HORIZON-Breast01 trastuzumab rezetecan pyrotinib capecitabine HER2 positive Lancet Oncology 2026 phase 3 publication date PMID",
+      "ASCENT-03 sacituzumab govitecan TNBC NEJM publication date PMID January February March 2026",
+      "breast cancer phase 3 trial 2026 Lancet Oncology OR Nature Medicine results published May June July August",
+      "Lancet Oncology July 2026 breast cancer phase 3 trial results randomized",
+      "KEYNOTE-522 final analysis pembrolizumab TNBC NEJM JCO PMID full publication 2026",
+      "izalontamab brengitecan iza-bren PANKU-Breast02 phase 3 TNBC full paper journal 2026 PMID doi publication",
+      "NSABP B-59 GeparDouze atezolizumab TNBC Nature Medicine PMID 2026 publication date August September",
+      "OPTIMA trial PAM50 breast cancer ER positive phase 3 published JCO ASCO 2026 chemotherapy omission",
+      "DESTINY-Breast04 long-term OS update Nature Medicine publication date early 2026 PMID 41062831",
+      "culmerciclib TQB3616 fulvestrant HR positive HER2 negative breast cancer phase 3 PMC PMID 2026",
+      "ESMO Breast Cancer 2026 May 6-8 Berlin phase 3 trial results presented TROPION datopotamab sacituzumab",
+      "trastuzumab rezetecan SHR-A1811 NCT05424835 HORIZON-Breast01 HR PFS OS hazard ratio safety grade 3 data",
+      "HORIZON-Breast01 trastuzumab rezetecan overall survival grade 3 adverse events ILD safety data interim analysis",
+      "TROPION-Breast02 datopotamab deruxtecan TNBC efficacy HR PFS OS median safety grade 3 NCT number",
+      "breast cancer ASCO 2026 phase 3 results published journal JCO paper full text May June 2026",
+      "breast cancer phase 3 randomized trial published May June July August September 2026 JCO NEJM Lancet Nature Medicine",
+      "breast cancer olaparib talazoparib niraparib rucaparib PARP inhibitor phase 3 2026 results published",
+      "TROPION-Breast01 datopotamab deruxtecan HR positive HER2 negative breast cancer phase 3 2026 publication",
+      "breast cancer sacituzumab tirumotecan SHR-A1921 SKB264 phase 3 2026 publication PMID Nature Medicine"
+    ],
+    "hits_included": 6,
+    "exclusions": {
+      "E1_phase_I_II": [],
+      "E2_subgroup_exploratory_QOL_posthoc": [
+        "OPTIMA trial (PAM50-guided chemotherapy omission in ER+/HER2-; investigational arm is a diagnostic strategy, not a drug; ASCO 2026 abstract JCO 44:16_suppl:500)",
+        "ASCENT-04/KEYNOTE-D19 ASCO 2026 update (PFS2 secondary endpoint update; primary PFS publication was NEJM January 2026, outside window)"
+      ],
+      "E3_endocrine_therapy_alone": [
+        "SERENA-6 (camizestrant, oral SERD; published Lancet Oncol July 13, 2026)",
+        "persevERA BC (giredestrant, oral SERD; ASCO 2026 abstract)",
+        "lidERA BC (giredestrant, oral SERD; ASCO 2026 abstract published JCO 44:17_suppl)"
+      ],
+      "E4_review_meta": [],
+      "E5_outside_period_before_May_2026": [
+        "monarchE primary OS (abemaciclib + ET vs ET in high-risk early HR+/HER2-; PMID 41110697; Annals Oncol 2026;37:155-165; published February 2026)",
+        "DESTINY-Breast05 (T-DXd vs T-DM1 in HER2+ early BC; PMID linked to NEJMoa2514661; NEJM 2026;394:845-857; published December 2025 online, February 2026 print)",
+        "ASCENT-03 (sacituzumab govitecan vs chemo in 1L metastatic TNBC not eligible for IO; PMID 41124233; NEJM DOI 10.1056/NEJMoa2511734; published October 2025)",
+        "ASCENT-04/KEYNOTE-D19 primary analysis (sacituzumab govitecan + pembrolizumab vs chemo + pembrolizumab in 1L PD-L1+ mTNBC; DOI 10.1056/NEJMoa2508959; published NEJM January 2026)",
+        "CITRINE trial (adjuvant carboplatin in high-risk early TNBC; PMID 41436191; BMJ; published January 12, 2026)",
+        "DESTINY-Breast04 long-term OS (T-DXd in HER2-low metastatic BC; PMID 41062831; Nature Medicine s41591-025-03981-4; published October 2025)",
+        "TROPION-Breast01 final OS (datopotamab deruxtecan vs chemo in HR+/HER2- metastatic BC; Annals Oncol; published December 2025)",
+        "culmerciclib + fulvestrant vs placebo + fulvestrant in previously treated HR+/HER2- ABC (PMID: Signal Transd Target Ther DOI 10.1038/s41392-025-02475-6; published December 18, 2025)",
+        "Palbociclib for HR+/HER2+ advanced BC (NEJM 2026;394; DOI NEJMoa2511218; published January 29, 2026)"
+      ]
+    },
+    "access_limitations": [
+      "Direct access to PubMed, NEJM, Nature, Lancet, Annals of Oncology, and most clinical/academic domains was blocked by network egress proxy.",
+      "Data extracted from WebSearch result summaries; original abstracts and full texts could not be directly fetched.",
+      "ESMO Congress 2026 (September 2026) phase 3 breast cancer abstracts could not be fully captured due to web search budget exhaustion.",
+      "Uncertainty remains about whether additional phase 3 breast cancer trials were published/presented at ESMO 2026 annual meeting (September 2026)."
+    ]
+  },
+  "trials": [
+    {
+      "trial_name": "PEARLY (KCSG BR 15-1)",
+      "nct_id": "NCT02441933",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（トリプルネガティブ乳がん）ステージII-III",
+      "setting": "周術期（ネオアジュバント/アジュバント）早期乳がん",
+      "investigational_arm": "アントラサイクリン後タキサン＋カルボプラチン",
+      "control_arm": "アントラサイクリン後タキサン",
+      "n": "NR",
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（無イベント生存期間）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "rate_5yr_exp": "81.9%",
+          "rate_5yr_ctrl": "74.4%",
+          "HR": "0.68",
+          "CI95": "0.50-0.93",
+          "p": "0.017"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "追跡期間中央値51.1ヶ月。IDFSおよびDRFSもカルボプラチン群で良好。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（カルボプラチン群で対照群より高い）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "カルボプラチン追加によりGrade≥3 AEは増加するも、QOLに臨床的に有意な悪化なし"
+      },
+      "clinical_significance": "早期TNBCの（ネオ）アジュバント療法にカルボプラチン追加がEFSを有意に改善。アンスラサイクリン/タキサンへのカルボプラチン追加の有用性を確立。韓国多施設ランダム化第III相試験。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42218963",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-05-30",
+        "doi": "10.1016/j.annonc.2026.05.703",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42218963/"
+      },
+      "flags": [
+        "アジア（韓国）多施設試験（KCSG）。国際的一般化には注意が必要",
+        "主要解析はASCO 2024で先行発表（LBA502）。2026年5月は査読付き全文誌掲載"
+      ]
+    },
+    {
+      "trial_name": "KEYNOTE-522（MK-3475-522）最終解析",
+      "nct_id": "NCT03036488",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（高リスク早期）",
+      "setting": "周術期（ネオアジュバント＋アジュバント）早期乳がん",
+      "investigational_arm": "ペムブロリズマブ＋化学療法（ネオアジュバント）→ペムブロリズマブ（アジュバント）",
+      "control_arm": "プラセボ＋化学療法（ネオアジュバント）→プラセボ（アジュバント）",
+      "n": 1174,
+      "analysis_type": "final_OS_analysis（long_term_followup）",
+      "primary_endpoint": "EFS（共主要エンドポイント：EFS、pCR）、OS（主要副次）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（追跡期間中央値93.8ヶ月、7年OS 85.1%）",
+          "median_ctrl": "NR（7年OS 77.2%）",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR",
+          "note": "OSイベント：ペムブロリズマブ群15.3% vs プラセボ群23.1%。7年OS：85.1% vs 77.2%。HR・p値は検索結果から確認できず"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "rate_7yr_exp": "78.3%",
+          "rate_7yr_ctrl": "69.8%",
+          "HR": "0.68",
+          "CI95": "0.54-0.86",
+          "p": "NR",
+          "EFS_events": "21.9% vs 30.3%"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "追跡期間中央値93.8ヶ月（約7.8年）。ペムブロリズマブ群784例、プラセボ群390例。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（最終解析の安全性データは確認できず）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR（既報告では免疫関連有害事象が特記事項）"
+      },
+      "clinical_significance": "高リスク早期TNBCに対するペリオペラティブ・ペムブロリズマブの7年以上にわたる持続的なEFS・OS改善を確認。EFS HR 0.68は長期で維持。OS benefit（7年OS差7.9ポイント）を初めて確認。現行標準治療としてのペムブロリズマブの位置づけを強化。",
+      "regulatory": {
+        "FDA": "2021年承認済（ペリオペラティブ早期TNBC）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（ASCO 2026 abstract；full paper PMIDなし）",
+        "journal": "Journal of Clinical Oncology（ASCO 2026 Annual Meeting supplement）",
+        "pub_date": "2026-05-30（ASCO 2026提示）",
+        "doi": "10.1200/JCO.2026.44.16_suppl.507",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.507"
+      },
+      "flags": [
+        "ASCO 2026 Annual Meeting abstract（JCO supplement）。独立した査読論文PMIDは現時点で未確認",
+        "一次主要解析（pCR）はNEJM 2020に発表済。本2026年データは最終解析（EFS・OS長期追跡）",
+        "OS HR・CIの数値は検索結果から確認できなかったためNRとした"
+      ]
+    },
+    {
+      "trial_name": "PANKU-Breast02（BL-B01D1-307）",
+      "nct_id": "NR",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（切除不能局所進行/転移）",
+      "setting": "二次治療以降（タキサン含む1-2ライン後）",
+      "investigational_arm": "イザロンタマブ・ブレンギテカン（iza-bren、BL-B01D1；二重特異性EGFR/HER3 ADC）",
+      "control_arm": "医師選択化学療法",
+      "n": 418,
+      "analysis_type": "primary（interim analysis）",
+      "primary_endpoint": "PFSおよびOS（二重主要エンドポイント）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "15.9ヶ月",
+          "median_ctrl": "12.5ヶ月",
+          "HR": "0.60",
+          "CI95": "0.42-0.85",
+          "p": "0.0019"
+        },
+        "PFS": {
+          "median_exp": "8.5ヶ月",
+          "median_ctrl": "3.1ヶ月",
+          "HR": "0.29",
+          "CI95": "0.22-0.38",
+          "p": "<0.0001"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "追跡期間中央値11ヶ月。二重特異性ADCとして第III相試験でTNBCにおいてPFS・OS双方の主要エンドポイントを達成した初の試験。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR（詳細安全性データは検索結果から確認できず）"
+      },
+      "clinical_significance": "EGFR/HER3を標的とする二重特異性ADCであるiza-brenが既治療TNBCで医師選択化学療法に対してPFS・OSの両主要エンドポイントを達成。PFS HR 0.29（72%リスク低減）、OS HR 0.60（40%死亡リスク低減）。第III相で二重特異性ADCがTNBCの二重エンドポイントを達成した初例。",
+      "regulatory": {
+        "FDA": "NR",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（ASCO 2026 abstract；full paper PMIDなし）",
+        "journal": "Journal of Clinical Oncology（ASCO 2026 Annual Meeting supplement）",
+        "pub_date": "2026-06-01（ASCO 2026提示）",
+        "doi": "10.1200/JCO.2026.44.17_suppl.LBA1003",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA1003"
+      },
+      "flags": [
+        "ASCO 2026 Annual Meeting abstract（JCO supplement LBA1003）。独立した査読論文PMIDは現時点で未確認",
+        "NCT番号を検索結果から確認できなかった",
+        "中間解析（interim analysis）段階のデータ",
+        "BMS（Bristol Myers Squibb）プレスリリース（2026年）でデータ発表済"
+      ]
+    },
+    {
+      "trial_name": "TROPION-Breast02",
+      "nct_id": "NCT05374512",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（切除不能局所進行/転移、免疫療法適応外）",
+      "setting": "一次治療（転移）",
+      "investigational_arm": "ダトポタマブ・デルクステカン（Dato-DXd；TROP2標的ADC）6 mg/kg IV q3w",
+      "control_arm": "医師選択化学療法",
+      "n": 644,
+      "analysis_type": "primary",
+      "primary_endpoint": "PFSおよびOS（co-primary）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "23.7ヶ月",
+          "median_ctrl": "18.7ヶ月",
+          "HR": "0.79",
+          "CI95": "NR",
+          "p": "0.0290"
+        },
+        "PFS": {
+          "median_exp": "10.8ヶ月",
+          "median_ctrl": "5.6ヶ月",
+          "HR": "0.57",
+          "CI95": "0.47-0.69",
+          "p": "<0.0001"
+        },
+        "ORR": {
+          "exp": "64%",
+          "ctrl": "30%"
+        },
+        "other": "2022年5月16日〜2024年6月11日に644例登録（Dato-DXd 323例、化学療法321例）。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（化学療法と同程度と報告）",
+        "ctrl_rate": "NR",
+        "notable_AEs": "Grade≥3 TRAEは両群で同程度。Dato-DXd群でのTRAEによる投与中止率は化学療法群より低い。"
+      },
+      "clinical_significance": "免疫療法適応外の1次治療TNBCで、Dato-DXdが化学療法に対してPFS（HR 0.57）・OS（HR 0.79）の双方を有意に改善。ORR 64% vs 30%。免疫療法不適格TNBCの新たな標準治療として確立。FDA承認取得済（検索結果から確認）。",
+      "regulatory": {
+        "FDA": "2026年承認（転移性TNBC）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "41937088",
+        "journal": "Annals of Oncology",
+        "pub_date": "2026-08（印刷版 Vol.37 Issue 8, pp.1066-1080）",
+        "doi": "10.1016/j.annonc.2026.03.008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41937088/"
+      },
+      "flags": [
+        "オンラインファースト公開日は2026年4月3日（印刷版2026年8月号掲載）。オンライン公開日基準では対象期間外（4月）。印刷版基準では対象期間内（8月）。",
+        "ESMO Congress 2025（2025年10月）で一次発表。2026年はAnnals Oncol誌面掲載とESMO Breast 2026（5月）でのQOLデータ発表。",
+        "OS CI95%の具体的数値は検索結果から確認できなかった"
+      ]
+    },
+    {
+      "trial_name": "HORIZON-Breast01",
+      "nct_id": "NCT05424835",
+      "cancer_type": "breast",
+      "subtype_biomarker": "HER2陽性転移性乳がん",
+      "setting": "二次治療以降（トラスツズマブ＋タキサン前治療後）",
+      "investigational_arm": "トラスツズマブ・レゼテカン（SHR-A1811；HER2標的ADC）4.8 mg/kg IV q3w",
+      "control_arm": "ピロチニブ400mg/日 ＋ カペシタビン1000mg/m2 bid d1-14 q3w",
+      "n": 287,
+      "analysis_type": "primary（interim analysis）",
+      "primary_endpoint": "PFS（BICR評価）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR（interim解析のため未成熟）",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "30.6ヶ月",
+          "median_ctrl": "8.3ヶ月",
+          "HR": "0.22",
+          "CI95": "0.15-0.34",
+          "p": "<0.0001"
+        },
+        "PFS_12mo": {
+          "exp": "84.7%（95%CI 77.0-90.0）",
+          "ctrl": "35.5%（95%CI 26.8-44.2）"
+        },
+        "ORR": {
+          "exp": "81.7%",
+          "ctrl": "NR"
+        },
+        "other": "2022年8月4日〜2024年8月9日に287例登録（T-Rez群142例、対照群145例）。追跡期間中央値約15.5ヶ月。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR（好中球減少54%、白血球減少20%、血小板減少11%など骨髄抑制が主）",
+        "ctrl_rate": "NR（好中球減少9%、白血球減少3%、血小板減少1%）",
+        "notable_AEs": "Grade≥3好中球数減少：トラスツズマブ・レゼテカン群54% vs 対照群9%。ILD（間質性肺疾患）：3% vs 0%。重篤なTRAE：19（13%）vs 17（12%）"
+      },
+      "clinical_significance": "HER2陽性転移性乳がんの前治療後患者において、HER2標的ADCであるトラスツズマブ・レゼテカン（SHR-A1811）がピロチニブ+カペシタビン（中国標準治療）に対してPFS中央値30.6 vs 8.3ヶ月（HR 0.22）と劇的なPFS改善を示す。中国多施設第III相試験の中間解析。",
+      "regulatory": {
+        "FDA": "NR（中国国内試験）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "42385760",
+        "journal": "The Lancet Oncology",
+        "pub_date": "2026-07-01",
+        "doi": "10.1016/S1470-2045(26)00193-2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42385760/"
+      },
+      "flags": [
+        "中国50施設の多施設試験。対照群はピロチニブ+カペシタビン（中国標準治療）であり、グローバルスタンダード（T-DM1やT-DXd）との比較ではない",
+        "中間解析（prespecified interim analysis）段階のデータ。OS未成熟",
+        "トラスツズマブ・レゼテカン（SHR-A1811）はリンカー＋DNAトポイソメラーゼI阻害薬ペイロードのHER2標的ADC（Jiangsu HengRui Medicine開発）"
+      ]
+    },
+    {
+      "trial_name": "NSABP B-59/GeparDouze",
+      "nct_id": "NR",
+      "cancer_type": "breast",
+      "subtype_biomarker": "TNBC（ステージII-III 早期）",
+      "setting": "周術期（ネオアジュバント＋アジュバント）早期乳がん",
+      "investigational_arm": "アテゾリズマブ＋ネオアジュバント逐次タキサン-カルボプラチン-アントラサイクリン化学療法 → アジュバント・アテゾリズマブ",
+      "control_arm": "プラセボ＋ネオアジュバント逐次タキサン-カルボプラチン-アントラサイクリン化学療法 → アジュバント・プラセボ",
+      "n": 1550,
+      "analysis_type": "primary",
+      "primary_endpoint": "EFS（無イベント生存期間）",
+      "efficacy": {
+        "OS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "0.86",
+          "CI95": "0.62-1.19",
+          "p": "NR"
+        },
+        "PFS": {
+          "median_exp": "NR",
+          "median_ctrl": "NR",
+          "HR": "NR",
+          "CI95": "NR",
+          "p": "NR"
+        },
+        "EFS": {
+          "rate_4yr_exp": "NR（+3.3ポイント差）",
+          "rate_4yr_ctrl": "NR",
+          "HR": "0.80",
+          "CI95": "0.62-1.03",
+          "p": "0.083（有意差なし）"
+        },
+        "ORR": {
+          "exp": "NR",
+          "ctrl": "NR"
+        },
+        "other": "EFSの主要エンドポイントは達成されず（p=0.083）。事前規定サブグループ解析ではリンパ節転移陽性患者でアテゾリズマブの有益性を示す不均一性あり（交互作用p=0.039）。"
+      },
+      "safety_grade3plus": {
+        "exp_rate": "NR",
+        "ctrl_rate": "NR",
+        "notable_AEs": "NR（詳細安全性データは検索結果から確認できず）"
+      },
+      "clinical_significance": "多施設二重盲検第III相試験（n=1550）で、早期TNBCへのアテゾリズマブ追加はEFSを有意に改善しなかった（HR 0.80、p=0.083）。同様のデザインのIMpassion031が陰性であったことと一致。PD-L1陽性や節陽性サブグループでの異質性は仮説生成的。KEYNOTE-522（ペムブロリズマブ）の成功と対照的な結果。",
+      "regulatory": {
+        "FDA": "NR（アテゾリズマブは乳がんの適応で2021年に承認撤回済）",
+        "PMDA": "NR"
+      },
+      "source": {
+        "PMID": "NR（Nature Medicine公開のため未確認）",
+        "journal": "Nature Medicine",
+        "pub_date": "2026-09-01",
+        "doi": "10.1038/s41591-026-04565-6",
+        "url": "https://www.nature.com/articles/s41591-026-04565-6"
+      },
+      "flags": [
+        "PMIDは検索結果から確認できなかった（Nature Medicineはアクセス制限）",
+        "NCT番号を検索結果から確認できなかった（NSABP B-59として登録されているはず）",
+        "EFS 95%CI上限値は元のデータで「0.062-1.03」と報告されているが、これはおそらく「0.62-1.03」の誤記の可能性。提示データを「0.62-1.03」と解釈して記録。",
+        "陰性試験（primary endpoint未達成）"
+      ]
+    }
+  ]
+}
