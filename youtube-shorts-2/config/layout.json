@@ -1,0 +1,51 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "crf": 23,
+    "preset": "medium"
+  },
+  "sections": {
+    "top": {
+      "height": 580,
+      "bg_color": "#1E2030",
+      "y_offset": 0
+    },
+    "video": {
+      "width": 1080,
+      "height": 608,
+      "y_offset": 580
+    },
+    "bottom": {
+      "height": 732,
+      "bg_color": "#1E2030",
+      "y_offset": 1188
+    }
+  },
+  "catchcopy": {
+    "font_path": "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf",
+    "font_size": 72,
+    "color": "#FFFFFF",
+    "stroke_color": "#000000",
+    "stroke_width": 3,
+    "padding_x": 60,
+    "padding_y": 40,
+    "max_chars_per_line": 14
+  },
+  "banner": {
+    "source": "assets/banner/channel_banner.webp",
+    "fit": "contain",
+    "bg_color": "#1E2030",
+    "padding": 20
+  },
+  "source_video": {
+    "path": "assets/source/source_video.mp4",
+    "original_width": 1920,
+    "original_height": 1080,
+    "target_width": 1080,
+    "target_height": 608
+  }
+}

@@ -1,0 +1,5 @@
+# Large binary assets — tracked outside git
+assets/source/
+analysis/transcripts/frames/
+output/
+previews/
