@@ -1,0 +1,14 @@
+timestamp_sec,timestamp_label,text,emotion_type,intensity,shorts_potential
+15,0:15,そのまま捨てろ,shock,★★,high
+20,0:20,常にファブリーズ撒け,humor,★★,medium
+26,0:26,テントで暮らそう,shock_humor,★★★,very_high
+120,2:00,スタッフ まさかの飛ばし,meta_comedy,★★,high
+130,2:10,モヤるな!!,frustration,★★,medium
+73,1:13,社員を働かせてやってるって思ってるから,insight,★★,high
+250,4:10,テントで暮らそう（本編版）,shock_humor,★★★,very_high
+200,3:20,ワシは還暦過ぎて61歳,character,★,medium
+280,4:40,2日ぐらいで蕁麻疹が,physical_reaction,★★,medium
+370,6:10,浮気癖が治るのは,taboo_topic,★★,high
+400,6:40,どんどん入れろ,shock,★★,high
+430,7:10,仲良く行動しよう,wholesome,★,low
+460,7:40,素顔で待ってます,closing,★,low

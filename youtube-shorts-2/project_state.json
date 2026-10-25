@@ -1,0 +1,102 @@
+{
+  "project_id": "buttakiri-shorts-002",
+  "project_name": "ぶった斬りCHANNEL YouTube Shorts制作 #2",
+  "created_at": "2026-10-25T00:00:00+09:00",
+  "last_updated": "2026-10-25T00:00:00+09:00",
+  "current_step": 1,
+  "steps": {
+    "step0": {
+      "name": "環境確認・制作体制の構築",
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-25T00:00:00+09:00",
+      "user_instruction": "元データ添付",
+      "artifacts": {
+        "source_video": "assets/source/source_video.mp4",
+        "channel_banner": "assets/banner/channel_banner.webp",
+        "layout_reference": "assets/reference/layout_reference.png"
+      }
+    },
+    "step1": {
+      "name": "元動画の解析",
+      "status": "awaiting_approval",
+      "approved": false,
+      "approved_at": null,
+      "user_instruction": null,
+      "artifacts": {
+        "transcript_md": "analysis/transcripts/transcript.md",
+        "emotional_moments": "analysis/segments/emotional_moments.csv",
+        "topic_segments": "analysis/segments/topic_segments.csv",
+        "frames_dir": "analysis/transcripts/frames/",
+        "frames_count": 491
+      }
+    },
+    "step2": {
+      "name": "切り抜き候補の洗い出し",
+      "status": "not_started",
+      "approved": false,
+      "approved_at": null,
+      "user_instruction": null,
+      "artifacts": {}
+    },
+    "step3": {
+      "name": "構成とコピーの設計",
+      "status": "not_started",
+      "approved": false,
+      "approved_at": null,
+      "user_instruction": null,
+      "artifacts": {}
+    },
+    "step4": {
+      "name": "動画編集・試作品",
+      "status": "not_started",
+      "approved": false,
+      "approved_at": null,
+      "user_instruction": null,
+      "artifacts": {},
+      "clips": {}
+    },
+    "step5": {
+      "name": "品質検証・完成MP4出力",
+      "status": "not_started",
+      "approved": false,
+      "approved_at": null,
+      "user_instruction": null,
+      "artifacts": {}
+    }
+  },
+  "assets": {
+    "source_video": {
+      "path": "assets/source/source_video.mp4",
+      "original_name": "1133e5b2-1025__.mp4",
+      "duration_sec": 491,
+      "resolution": "1920x1080",
+      "fps": "24000/1001",
+      "video_codec": "hevc",
+      "audio_codec": "aac",
+      "subtitle_type": "burned_in"
+    },
+    "channel_banner": {
+      "path": "assets/banner/channel_banner.webp",
+      "usage": "Shorts下段"
+    },
+    "layout_reference": {
+      "path": "assets/reference/layout_reference.png",
+      "description": "ワイヤーフレーム：上段コピー＋中段16:9映像＋下段バナーの3段構成"
+    }
+  },
+  "layout": {
+    "canvas_width": 1080,
+    "canvas_height": 1920,
+    "top_section_height": 580,
+    "video_section_height": 608,
+    "bottom_section_height": 732,
+    "top_bg_color": "#1E2030",
+    "bottom_bg_color": "#1E2030",
+    "catchcopy_font": "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf",
+    "catchcopy_font_size": 72,
+    "catchcopy_color": "#FFFFFF"
+  },
+  "clips": {},
+  "quality_log": []
+}
