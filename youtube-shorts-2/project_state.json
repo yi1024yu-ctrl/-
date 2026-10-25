@@ -33,10 +33,10 @@
     },
     "step2": {
       "name": "切り抜き候補の洗い出し",
-      "status": "awaiting_approval",
-      "approved": false,
-      "approved_at": null,
-      "user_instruction": null,
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-25T00:00:00+09:00",
+      "user_instruction": "次",
       "artifacts": {
         "all_candidates": "planning/candidates/all_candidates.md",
         "recommended_5": "planning/candidates/recommended_5.md"
@@ -44,11 +44,17 @@
     },
     "step3": {
       "name": "構成とコピーの設計",
-      "status": "not_started",
+      "status": "awaiting_approval",
       "approved": false,
       "approved_at": null,
       "user_instruction": null,
-      "artifacts": {}
+      "artifacts": {
+        "SHORT_01": "planning/storyboards/SHORT_01_v1.md",
+        "SHORT_02": "planning/storyboards/SHORT_02_v1.md",
+        "SHORT_03": "planning/storyboards/SHORT_03_v1.md",
+        "SHORT_04": "planning/storyboards/SHORT_04_v1.md",
+        "SHORT_05": "planning/storyboards/SHORT_05_v1.md"
+      }
     },
     "step4": {
       "name": "動画編集・試作品",
