@@ -19,10 +19,10 @@
     },
     "step1": {
       "name": "元動画の解析",
-      "status": "awaiting_approval",
-      "approved": false,
-      "approved_at": null,
-      "user_instruction": null,
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-25T00:00:00+09:00",
+      "user_instruction": "次へ",
       "artifacts": {
         "transcript_md": "analysis/transcripts/transcript.md",
         "emotional_moments": "analysis/segments/emotional_moments.csv",
@@ -33,11 +33,14 @@
     },
     "step2": {
       "name": "切り抜き候補の洗い出し",
-      "status": "not_started",
+      "status": "awaiting_approval",
       "approved": false,
       "approved_at": null,
       "user_instruction": null,
-      "artifacts": {}
+      "artifacts": {
+        "all_candidates": "planning/candidates/all_candidates.md",
+        "recommended_5": "planning/candidates/recommended_5.md"
+      }
     },
     "step3": {
       "name": "構成とコピーの設計",
