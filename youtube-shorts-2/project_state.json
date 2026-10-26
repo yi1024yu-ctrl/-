@@ -44,10 +44,10 @@
     },
     "step3": {
       "name": "構成とコピーの設計",
-      "status": "awaiting_approval",
-      "approved": false,
-      "approved_at": null,
-      "user_instruction": null,
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-26T00:00:00+09:00",
+      "user_instruction": "次のステップへ",
       "artifacts": {
         "SHORT_01": "planning/storyboards/SHORT_01_v1.md",
         "SHORT_02": "planning/storyboards/SHORT_02_v1.md",
@@ -58,12 +58,26 @@
     },
     "step4": {
       "name": "動画編集・試作品",
-      "status": "not_started",
+      "status": "awaiting_approval",
       "approved": false,
       "approved_at": null,
       "user_instruction": null,
-      "artifacts": {},
-      "clips": {}
+      "artifacts": {
+        "build_script": "scripts/build_short.py",
+        "SHORT_01": "output/drafts/SHORT_01_draft.mp4",
+        "SHORT_02": "output/drafts/SHORT_02_draft.mp4",
+        "SHORT_03": "output/drafts/SHORT_03_draft.mp4",
+        "SHORT_04": "output/drafts/SHORT_04_draft.mp4",
+        "SHORT_05": "output/drafts/SHORT_05_draft.mp4",
+        "thumbnails": "previews/drafts/"
+      },
+      "clips": {
+        "SHORT_01": {"start": 215, "end": 285, "duration": 70, "size_kb": 8133},
+        "SHORT_02": {"start": 140, "end": 220, "duration": 80, "size_kb": 8466},
+        "SHORT_03": {"start": 75,  "end": 140, "duration": 65, "size_kb": 7213},
+        "SHORT_04": {"start": 298, "end": 362, "duration": 64, "size_kb": 6700},
+        "SHORT_05": {"start": 362, "end": 432, "duration": 70, "size_kb": 8071}
+      }
     },
     "step5": {
       "name": "品質検証・完成MP4出力",
