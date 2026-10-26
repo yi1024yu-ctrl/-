@@ -58,10 +58,10 @@
     },
     "step4": {
       "name": "動画編集・試作品",
-      "status": "awaiting_approval",
-      "approved": false,
-      "approved_at": null,
-      "user_instruction": null,
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-26T00:00:00+09:00",
+      "user_instruction": "次へ",
       "artifacts": {
         "build_script": "scripts/build_short.py",
         "SHORT_01": "output/drafts/SHORT_01_draft.mp4",
@@ -81,11 +81,18 @@
     },
     "step5": {
       "name": "品質検証・完成MP4出力",
-      "status": "not_started",
-      "approved": false,
-      "approved_at": null,
+      "status": "completed",
+      "approved": true,
+      "approved_at": "2026-10-26T00:00:00+09:00",
       "user_instruction": null,
-      "artifacts": {}
+      "artifacts": {
+        "quality_report": "analysis/reports/quality_report.md",
+        "SHORT_01_final": "output/final/SHORT_01_final.mp4",
+        "SHORT_02_final": "output/final/SHORT_02_final.mp4",
+        "SHORT_03_final": "output/final/SHORT_03_final.mp4",
+        "SHORT_04_final": "output/final/SHORT_04_final.mp4",
+        "SHORT_05_final": "output/final/SHORT_05_final.mp4"
+      }
     }
   },
   "assets": {
